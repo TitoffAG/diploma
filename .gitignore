@@ -1,0 +1,7 @@
+.idea/
+.vscode/
+resources/
+venv/
+
+__pycache__
+*.pyc

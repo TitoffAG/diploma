@@ -1,0 +1,9 @@
+bson
+# pickle
+Pillow
+scipy
+numpy
+mpmath
+matplotlib
+pymongo
+datetime
