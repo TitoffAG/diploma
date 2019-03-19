@@ -5,7 +5,6 @@ from sympy import integrate, symbols
 from pyquaternion import Quaternion
 from scipy.optimize import fsolve
 from scipy.integrate import odeint
-from pickle import loads
 
 # константы
 alpha1 = 1.5
