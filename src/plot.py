@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 from PIL import Image
 
 
-def draw(ivp_solution, control, time):
+def draw_ivp_and_control(ivp_solution, control, time):
     lambda0 = ivp_solution[:, 0]
     lambda1 = ivp_solution[:, 1]
     lambda2 = ivp_solution[:, 2]
@@ -27,8 +27,18 @@ def draw(ivp_solution, control, time):
     ax2.axhline(y=omega3, color='g', label='omega3')
     ax2.legend()
     ax2.grid()
-    
-    plt.savefig('resources/img.png')
+
+    plt.savefig('resources/ivp_and_control.png')
+
+
+def draw_fuctional(functional, alpha_interval):
+    fig, ax = plt.subplots()
+
+    ax.plot(alpha_interval, functional, color='b', label='functional')
+    ax.legend()
+    ax.grid()
+
+    fig.savefig('resources/fuctional.png')
 
 
 def open(url):
