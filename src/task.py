@@ -9,16 +9,18 @@ from scipy.integrate import odeint
 # константы
 alpha1 = 1.5
 alpha2 = 2.5
-alpha3 = 5
-# задаем
-end_time = 20
+end_time = 9
+# интервал (1.5, 3.7) с углами в 50 градусов
+# интервал (3.7, 5) с углами в 5 градусов
+alpha3_start = 1.5
+alpha3_end = 3.7
 teta = 50
 psi = 50
 phi = 50
-# начальные значения для p1, p2, p3 и интервалы времени
+# начальные значения для p1, p2, p3; интервалы t и alpha3 
 init_approx = [1, 2, 3]
 time = np.linspace(0, end_time, 201)
-alpha_interval = np.linspace(1.0, alpha3, 11)
+alpha_interval = np.linspace(alpha3_start, alpha3_end, 10)
 
 lambda00, lambda01, lambda02, lambda03 = utils.transform_euler_angles_to_components_quaternion(
     teta, psi, phi)
@@ -119,17 +121,18 @@ def start():
     plot.draw_ivp_and_control(ivp_solution, control, time)
     plot.draw_fuctional(result, alpha_interval)
 
-    # results = bvp_solution.tolist(), ivp_solution[-1].tolist(), control, float(functional)
-    # charts = plot.open('resources/img.png')
+    results = bvp_solution.tolist(), ivp_solution[-1].tolist(), control, float(functional)
+    
+    ivp_and_control_charts = plot.open('resources/ivp_and_control.png')
+    functional_chart = plot.open('resources/functional.png')
+    charts = ivp_and_control_charts, functional_chart
 
-    # collection = db.connect() # подключаемся к серверу бд
-    # db.write(collection, results, charts) # делаем запись в коллекцию
+    collection = db.connect() # подключаемся к серверу бд
+    db.write(collection, results, charts) # делаем запись в коллекцию
 
-    # cursor = db.read(collection, {})
-    # for record in cursor:
-    #     print(record['data']) # читаем все записи из коллекции
-
-    # plot.save('resources/img.png')
+    cursor = db.read(collection, {}) # поиск
+    for record in cursor:
+        print(record['data']) # читаем все записи из коллекции
 
 
 if __name__ == '__main__':

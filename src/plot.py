@@ -38,7 +38,7 @@ def draw_fuctional(functional, alpha_interval):
     ax.legend()
     ax.grid()
 
-    fig.savefig('resources/fuctional.png')
+    fig.savefig('resources/functional.png')
 
 
 def open(url):
