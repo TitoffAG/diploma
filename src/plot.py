@@ -16,8 +16,8 @@ def draw(ivp_solution, control, time):
     ax1 = fig.add_subplot(211)
     ax1.plot(time, lambda0, color='b', label='lambda0')
     ax1.plot(time, lambda1, color='r', label='lambda1')
-    ax1.plot(time, lambda2, color='g', label='lambda1')
-    ax1.plot(time, lambda3, color='y', label='lambda1')
+    ax1.plot(time, lambda2, color='g', label='lambda2')
+    ax1.plot(time, lambda3, color='y', label='lambda3')
     ax1.legend()
     ax1.grid()
 

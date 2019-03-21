@@ -1,46 +1,30 @@
 import db
 import plot
+import utils
 import numpy as np
 from sympy import integrate, symbols
-from pyquaternion import Quaternion
 from scipy.optimize import fsolve
 from scipy.integrate import odeint
 
 # константы
 alpha1 = 1.5
 alpha2 = 2.5
+# задаем
 alpha3 = 3.5
+end_time = 5
+teta = 3
+psi = 3
+phi = 3
+# начальные значения для p1, p2, p3 и интервалы времени
+init_approx = [1, 2, 3]
+time = np.linspace(0, end_time, 201)
 
-lambda00 = 1.5
-lambda01 = 2.5
-lambda02 = 3.5
-lambda03 = 4.5
-
-# !!!!
-lambda0 = Quaternion(lambda00, lambda01, lambda02, lambda03).unit
-print('lambda0 = ', lambda0)
-print('norm of lambda0 = ', lambda0.norm)
-
-lambda00, lambda01, lambda02, lambda03 = lambda0
-# !!!!
+lambda00, lambda01, lambda02, lambda03 = utils.transformEulerAnglesToComponentsQuaternion(teta, psi, phi)
 
 lambdaT0 = -1.0
 lambdaT1 = 0.0
 lambdaT2 = 0.0
 lambdaT3 = 0.0
-
-# !!!!
-lambdaT = Quaternion(lambdaT0, lambdaT1, lambdaT2, lambdaT3).unit
-print('lambdaT = ', lambdaT)
-print('norm of lambdaT = ', lambdaT.norm)
-
-lambdaT0, lambdaT1, lambdaT2, lambdaT3 = lambdaT
-# !!!!
-
-
-init_approx = [1, 2, 3]  # начальные значения для p1, p2, p3
-end_time = 5  # tk
-time = np.linspace(0, end_time, 201) # интервалы времени
 
 
 def system(vars, time):  # исходная система ДУ
@@ -71,11 +55,10 @@ def calculate_ivp(vars):  # задача Коши
 def calculate_final_condition(vars):
     lambdaT_pribl0, lambdaT_pribl1, lambdaT_pribl2, lambdaT_pribl3 = vars[
         0], vars[1], vars[2], vars[3]
-    lambdaT_pribl = Quaternion(
-        lambdaT_pribl0, lambdaT_pribl1, lambdaT_pribl2, lambdaT_pribl3)
-    lambdaT = Quaternion(lambdaT0, lambdaT1, lambdaT2, lambdaT3)
-    residual = (lambdaT_pribl.conjugate * lambdaT).vector
-    return residual
+    lambdaT_pribl = np.array([lambdaT_pribl0, lambdaT_pribl1, lambdaT_pribl2, lambdaT_pribl3])
+    lambdaT = np.array([lambdaT0, lambdaT1, lambdaT2, lambdaT3])
+    
+    return utils.residualСalculation(lambdaT_pribl, lambdaT)
 
 
 def calculate_bvp(vars):  # функция F(p01, p02, p03)
@@ -133,7 +116,7 @@ def start():
 
     cursor = db.read(collection, {})
     for record in cursor:
-        print(record) # читаем все записи из коллекции
+        print(record['data']) # читаем все записи из коллекции
 
     plot.save('resources/img.png')
 
