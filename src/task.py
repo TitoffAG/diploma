@@ -8,19 +8,19 @@ from scipy.integrate import odeint
 
 # константы
 alpha1 = 1.5
-alpha2 = 2.5
+alpha3 = 3.5
 end_time = 9
 # интервал (1.5, 3.7) с углами в 50 градусов
 # интервал (3.7, 5) с углами в 5 градусов
-alpha3_start = 1.5
-alpha3_end = 3.7
+alpha2_start = 1.5
+alpha2_end = 3.7
 teta = 50
 psi = 50
 phi = 50
-# начальные значения для p1, p2, p3; интервалы t и alpha3 
+# начальные значения для p1, p2, p3; интервалы t и alpha3
 init_approx = [1, 2, 3]
-time = np.linspace(0, end_time, 201)
-alpha_interval = np.linspace(alpha3_start, alpha3_end, 10)
+time = np.linspace(0, end_time, 101)
+alpha_interval = np.linspace(alpha2_start, alpha2_end, 11)
 
 lambda00, lambda01, lambda02, lambda03 = utils.transform_euler_angles_to_components_quaternion(
     teta, psi, phi)
@@ -37,8 +37,8 @@ def system_hof(vars, time, alpha):  # исходная система ДУ
             0], vars[1], vars[2], vars[3], vars[4], vars[5], vars[6]
 
         omega1 = p1 / (4 * alpha1)
-        omega2 = p2 / (4 * alpha2)
-        omega3 = p3 / (4 * alpha)
+        omega2 = p2 / (4 * alpha)
+        omega3 = p3 / (4 * alpha3)
 
         f1 = -0.5 * (lambda1 * omega1 + lambda2 * omega2 + lambda3 * omega3)
         f2 = 0.5 * (lambda0 * omega1 + lambda2 * omega3 - lambda3 * omega2)
@@ -82,57 +82,59 @@ def calculate_control(vars, alpha):
     p1, p2, p3 = vars[0], vars[1], vars[2]
     return [
         p1 / (4 * alpha1),
-        p2 / (4 * alpha2),
-        p3 / (4 * alpha)
+        p2 / (4 * alpha),
+        p3 / (4 * alpha3)
     ]
 
 
 def calculate_functional(vars, alpha):  # минимизирующий функционал
     control1, control2, control3 = vars[0], vars[1], vars[2]
     integrand_function = alpha1 * \
-        (control1 ** 2) + alpha2 * (control2 ** 2) + alpha * (control3 ** 2)
+        (control1 ** 2) + alpha * (control2 ** 2) + alpha3 * (control3 ** 2)
     return integrate(integrand_function, (symbols('t'), 0, end_time))
 
 
 def start():
-    result = []
+    result_control = []
+    result_functional = []
     for alpha in alpha_interval:
         # ищем аппроксимацию
         # подставляем начальное приближение
         bvp_solution = calculate_bvp(init_approx, alpha)
         print('[p1, p2, p3] = %s \n' %
-            bvp_solution)  # подбор p1, p2, p3
+              bvp_solution)  # подбор p1, p2, p3
 
         ivp_solution = calculate_ivp(bvp_solution, alpha)
         print('lambdaT: %s \n' %
-            ivp_solution[-1])  # решение задачи Коши
+              ivp_solution[-1])  # решение задачи Коши
 
         control = calculate_control(bvp_solution, alpha)
         print('Control: %s \n' %
-            control)  # вычисление угловой скорости-управления
+              control)  # вычисление угловой скорости-управления
+        result_control.append(control)
 
         functional = calculate_functional(control, alpha)
         print('Functional: %s \n' %
-            functional)  # вычисление функционала
-        
-        result.append(functional)
+              functional)  # вычисление функционала
+        result_functional.append(functional)
 
     # строим график изменения кватерниона во времени
-    plot.draw_ivp_and_control(ivp_solution, control, time)
-    plot.draw_fuctional(result, alpha_interval)
+    plot.draw_ivp_and_control(
+        ivp_solution, result_control, time, alpha_interval)
+    plot.draw_fuctional(result_functional, alpha_interval)
 
-    results = bvp_solution.tolist(), ivp_solution[-1].tolist(), control, float(functional)
-    
-    ivp_and_control_charts = plot.open('resources/ivp_and_control.png')
-    functional_chart = plot.open('resources/functional.png')
-    charts = ivp_and_control_charts, functional_chart
+    # results = bvp_solution.tolist(), ivp_solution[-1].tolist(), control, float(functional)
 
-    collection = db.connect() # подключаемся к серверу бд
-    db.write(collection, results, charts) # делаем запись в коллекцию
+    # ivp_and_control_charts = plot.open('resources/ivp_and_control.png')
+    # functional_chart = plot.open('resources/functional.png')
+    # charts = ivp_and_control_charts, functional_chart
 
-    cursor = db.read(collection, {}) # поиск
-    for record in cursor:
-        print(record['data']) # читаем все записи из коллекции
+    # collection = db.connect() # подключаемся к серверу бд
+    # db.write(collection, results, charts) # делаем запись в коллекцию
+
+    # cursor = db.read(collection, {}) # поиск
+    # for record in cursor:
+    #     print(record['data']) # читаем все записи из коллекции
 
 
 if __name__ == '__main__':
