@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 \def\selectlanguageifdefined#1{
 \expandafter\ifx\csname date#1\endcsname\relax
 \else\language\csname l@#1\endcsname\fi}
@@ -24,5 +24,108 @@
   Шмыглевский~И.П.~Бранец~В.Н. ---
 \newblock М.: Наука, 1973. ---
 \newblock {С.}~320.
+
+\bibitem{buhgolc}
+\selectlanguageifdefined{russian}
+\BibEmph{Н.Н.,~Бухгольц}. Основной курс
+  теоретической механики. Часть 2.~/
+  Бухгольц~Н.Н. ---
+\newblock М.: Наука, 1966. ---
+\newblock {С.}~332.
+
+\bibitem{pontryagin}
+\selectlanguageifdefined{russian}
+\BibEmph{Понтрягин~Л.С.,~Мищенко~Е.Ф.}
+  Математическая теория оптимальных
+  процессов.~/ Мищенко~Е.Ф.~Понтрягин~Л.С. ---
+\newblock М.: Наука, 1983. ---
+\newblock {С.}~392.
+
+\bibitem{roitenberg}
+\selectlanguageifdefined{russian}
+\BibEmph{Я.Н.,~Ройтенберг}. Автоматическое
+  управление.~/ Ройтенберг~Я.Н. ---
+\newblock М.: Наука, 1971. ---
+\newblock {С.}~396.
+
+\bibitem{samarskii}
+\selectlanguageifdefined{russian}
+\BibEmph{Самарский~А.А.,~Гулин~А.В.} Численные
+  методы.~/ Гулин~А.В.~Самарский~А.А. ---
+\newblock М.: Наука, 1989. ---
+\newblock {С.}~432.
+
+\bibitem{bre}
+\selectlanguageifdefined{russian}
+\BibEmph{А.М.,~Прохоров}. Большая советская
+  энциклопедия. В 30 томах.~/ Прохоров~А.М. ---
+\newblock М.: Советская энциклопедия, 1978. ---
+\newblock {С.}~19774.
+
+\bibitem{matan}
+\selectlanguageifdefined{russian}
+\BibEmph{В.А.,~Ильин}. Математический анализ.
+  Продолжение курса.~/ Ильин~В.А. ---
+\newblock М: МГУ, 1987. ---
+\newblock {С.}~244.
+
+\bibitem{python}
+\selectlanguageifdefined{russian}
+\BibEmph{Р.А.,~Сузи}. Язык программирования Python.~/
+  Сузи~Р.А. ---
+\newblock М.: Интернет-Университет
+  Информационных Технологий, 2007. ---
+\newblock {С.}~327.
+
+\bibitem{latex}
+\selectlanguageifdefined{russian}
+\BibEmph{С.М.,~Львовский}. Набор и верстка в
+  пакете \LaTeX.~/ Львовский~С.М. ---
+\newblock М.: МЦНМО, 2006. ---
+\newblock {С.}~448.
+
+\bibitem{mechanics}
+\selectlanguageifdefined{russian}
+\BibEmph{Л.И.,~Седов}. Механика сплошной среды.~/
+  Седов~Л.И. ---
+\newblock М.: Наука, 1970. ---
+\newblock {С.}~166.
+
+\bibitem{methods}
+\selectlanguageifdefined{russian}
+\BibEmph{А.A.,~Амосов}. Вычислительные методы для
+  инженеров: Учебное пособие.~/ Амосов~А.A. ---
+\newblock М.: Наука, 1980. ---
+\newblock {С.}~218.
+
+\bibitem{pontryagin2}
+\selectlanguageifdefined{russian}
+\BibEmph{Л.С.,~Понтрягин}. Обыкновенные
+  дифференциальные уравнения.~/
+  Понтрягин~Л.С. ---
+\newblock М.: Наука, 1983. ---
+\newblock {С.}~393.
+
+\bibitem{demidovich}
+\selectlanguageifdefined{russian}
+\BibEmph{Демидович~Б.П.,~Кудрявцев~В.А.} Краткий
+  курс высшей математики.~/
+  Кудрявцев~В.А.~Демидович~Б.П. ---
+\newblock М: Астрель, 2006. ---
+\newblock {С.}~991.
+
+\bibitem{lutz}
+\selectlanguageifdefined{russian}
+\BibEmph{Марк,~Лутц}. Изучаем Python~/ Лутц~Марк. ---
+\newblock М: Символ-Плюс, 2016. ---
+\newblock {С.}~1280.
+
+\bibitem{mongodb}
+\selectlanguageifdefined{english}
+MongoDB Documentation - https://docs.mongodb.com.
+
+\bibitem{scipy}
+\selectlanguageifdefined{english}
+SciPy.org Documetation - https://www.scipy.org/docs.html.
 
 \end{thebibliography}
