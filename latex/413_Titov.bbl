@@ -9,123 +9,148 @@
 
 \bibitem{chelnokov}
 \selectlanguageifdefined{russian}
-\BibEmph{Ю.Н.,~Челноков}. Кватернионные и
+\BibEmph{Челноков,~Ю.Н.} Кватернионные и
   бикватернионные модели и методы механики
   твердого тела и их приложения. Геометрия и
-  кинематика движения.~/ Челноков~Ю.Н. ---
+  кинематика движения.~/ Ю.Н.~Челноков. ---
 \newblock М.: ФИЗМАТЛИТ, 2006. ---
-\newblock {С.}~512.
+\newblock 512~{с.}
 
 \bibitem{branets}
 \selectlanguageifdefined{russian}
-\BibEmph{Бранец~В.Н.,~Шмыглевский~И.П.}
-  Применение кватернионов в задачах
-  ориентации твердого тела.~/
-  Шмыглевский~И.П.~Бранец~В.Н. ---
+\BibEmph{Бранец,~В.Н.} Применение кватернионов в
+  задачах ориентации твердого тела.~/
+  В.Н.~Бранец, И.П.~Шмыглевский. ---
 \newblock М.: Наука, 1973. ---
-\newblock {С.}~320.
+\newblock 320~{с.}
 
-\bibitem{buhgolc}
+\bibitem{buhgolz}
 \selectlanguageifdefined{russian}
-\BibEmph{Н.Н.,~Бухгольц}. Основной курс
+\BibEmph{Бухгольц,~Н.Н.} Основной курс
   теоретической механики. Часть 2.~/
-  Бухгольц~Н.Н. ---
+  Н.Н.~Бухгольц. ---
 \newblock М.: Наука, 1966. ---
-\newblock {С.}~332.
+\newblock 332~{с.}
 
 \bibitem{pontryagin}
 \selectlanguageifdefined{russian}
-\BibEmph{Понтрягин~Л.С.,~Мищенко~Е.Ф.}
-  Математическая теория оптимальных
-  процессов.~/ Мищенко~Е.Ф.~Понтрягин~Л.С. ---
+\BibEmph{Понтрягин,~Л.С.} Математическая теория
+  оптимальных процессов.~/ Л.С.~Понтрягин,
+  Е.Ф.~Мищенко. ---
 \newblock М.: Наука, 1983. ---
-\newblock {С.}~392.
+\newblock 392~{с.}
 
 \bibitem{roitenberg}
 \selectlanguageifdefined{russian}
-\BibEmph{Я.Н.,~Ройтенберг}. Автоматическое
-  управление.~/ Ройтенберг~Я.Н. ---
+\BibEmph{Ройтенберг,~Я.Н.} Автоматическое
+  управление.~/ Я.Н.~Ройтенберг. ---
 \newblock М.: Наука, 1971. ---
 \newblock {С.}~396.
 
 \bibitem{samarskii}
 \selectlanguageifdefined{russian}
-\BibEmph{Самарский~А.А.,~Гулин~А.В.} Численные
-  методы.~/ Гулин~А.В.~Самарский~А.А. ---
+\BibEmph{Самарский,~А.А.} Численные методы.~/
+  А.А.~Самарский, А.В.~Гулин. ---
 \newblock М.: Наука, 1989. ---
 \newblock {С.}~432.
 
-\bibitem{bre}
-\selectlanguageifdefined{russian}
-\BibEmph{А.М.,~Прохоров}. Большая советская
-  энциклопедия. В 30 томах.~/ Прохоров~А.М. ---
-\newblock М.: Советская энциклопедия, 1978. ---
-\newblock {С.}~19774.
-
 \bibitem{matan}
 \selectlanguageifdefined{russian}
-\BibEmph{В.А.,~Ильин}. Математический анализ.
-  Продолжение курса.~/ Ильин~В.А. ---
+\BibEmph{Ильин,~В.А.} Математический анализ.
+  Продолжение курса.~/ В.А.~Ильин. ---
 \newblock М: МГУ, 1987. ---
 \newblock {С.}~244.
 
 \bibitem{python}
 \selectlanguageifdefined{russian}
-\BibEmph{Р.А.,~Сузи}. Язык программирования Python.~/
-  Сузи~Р.А. ---
+\BibEmph{Сузи,~Р.А.} Язык программирования Python.~/
+  Р.А.~Сузи. ---
 \newblock М.: Интернет-Университет
   Информационных Технологий, 2007. ---
 \newblock {С.}~327.
 
 \bibitem{latex}
 \selectlanguageifdefined{russian}
-\BibEmph{С.М.,~Львовский}. Набор и верстка в
-  пакете \LaTeX.~/ Львовский~С.М. ---
+\BibEmph{Львовский,~С.М.} Набор и верстка в
+  пакете \LaTeX.~/ С.М.~Львовский. ---
 \newblock М.: МЦНМО, 2006. ---
 \newblock {С.}~448.
 
 \bibitem{mechanics}
 \selectlanguageifdefined{russian}
-\BibEmph{Л.И.,~Седов}. Механика сплошной среды.~/
-  Седов~Л.И. ---
+\BibEmph{Седов,~Л.И.} Механика сплошной среды.~/
+  Л.И.~Седов. ---
 \newblock М.: Наука, 1970. ---
 \newblock {С.}~166.
 
 \bibitem{methods}
 \selectlanguageifdefined{russian}
-\BibEmph{А.A.,~Амосов}. Вычислительные методы для
-  инженеров: Учебное пособие.~/ Амосов~А.A. ---
+\BibEmph{Амосов,~А.A.} Вычислительные методы для
+  инженеров: Учебное пособие.~/ А.A.~Амосов. ---
 \newblock М.: Наука, 1980. ---
 \newblock {С.}~218.
 
 \bibitem{pontryagin2}
 \selectlanguageifdefined{russian}
-\BibEmph{Л.С.,~Понтрягин}. Обыкновенные
+\BibEmph{Понтрягин,~Л.С.} Обыкновенные
   дифференциальные уравнения.~/
-  Понтрягин~Л.С. ---
+  Л.С.~Понтрягин. ---
 \newblock М.: Наука, 1983. ---
 \newblock {С.}~393.
 
 \bibitem{demidovich}
 \selectlanguageifdefined{russian}
-\BibEmph{Демидович~Б.П.,~Кудрявцев~В.А.} Краткий
-  курс высшей математики.~/
-  Кудрявцев~В.А.~Демидович~Б.П. ---
+\BibEmph{Демидович,~Б.П.} Краткий курс высшей
+  математики.~/ Б.П.~Демидович, В.А.~Кудрявцев.
+  ---
 \newblock М: Астрель, 2006. ---
 \newblock {С.}~991.
 
 \bibitem{lutz}
-\selectlanguageifdefined{russian}
-\BibEmph{Марк,~Лутц}. Изучаем Python~/ Лутц~Марк. ---
+\selectlanguageifdefined{english}
+\BibEmph{Лутц,~Марк}. Изучаем Python~/ Марк~Лутц. ---
 \newblock М: Символ-Плюс, 2016. ---
-\newblock {С.}~1280.
+\newblock P.~1280.
 
 \bibitem{mongodb}
-\selectlanguageifdefined{english}
-MongoDB Documentation - https://docs.mongodb.com.
+\selectlanguageifdefined{russian}
+MongoDB Documentation. \BibUrl{ https://docs.mongodb.com}.
 
 \bibitem{scipy}
-\selectlanguageifdefined{english}
-SciPy.org Documetation - https://www.scipy.org/docs.html.
+\selectlanguageifdefined{russian}
+SciPy.org Documetation. \BibUrl{ https://www.scipy.org/docs.html}.
+
+\bibitem{sapunkov}
+\selectlanguageifdefined{russian}
+\BibEmph{Сапунков,~Я.Г.} Численное исследование
+  систем автоматического управления.~/
+  Я.Г.~Сапунков. ---
+\newblock М: Наука, 2003. ---
+\newblock {С.}~22.
+
+\bibitem{antipova}
+\selectlanguageifdefined{russian}
+\BibEmph{Антипова,~А.С.} Кинематический
+  оптимальный разворот твердого тела.~/
+  А.С.~Антипова, В.Г.~Бирюков~//
+  \BibEmph{Математика и её приложения: ЖИМО.} ---
+\newblock 2010. ---
+\newblock {№} 1(7). ---
+\newblock {С.}~3--10.
+
+\bibitem{moiseev}
+\selectlanguageifdefined{russian}
+\BibEmph{Моисеев,~Н.Н.} Численные методы в
+  теории оптимальных систем.~/ Н.Н.~Моисеев.
+  ---
+\newblock М.: Наука, 1971. ---
+\newblock {С.}~424.
+
+\bibitem{vasileva}
+\selectlanguageifdefined{russian}
+\BibEmph{Васильева,~А.Б.} Дифференциальные
+  уравнения.~/ А.Б.~Васильева, А.Н.~Тихонов. ---
+\newblock М.: ФИЗМАТЛИТ, 2005. ---
+\newblock {С.}~254.
 
 \end{thebibliography}
