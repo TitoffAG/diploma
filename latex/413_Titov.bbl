@@ -7,6 +7,13 @@
 \ifx\undefined\BibAnnote\long\def\BibAnnote#1{}\else\fi
 \ifx\undefined\BibEmph\def\BibEmph#1{\emph{#1}}\else\fi
 
+\bibitem{latex}
+\selectlanguageifdefined{russian}
+\BibEmph{Львовский,~С.М.} Набор и верстка в
+  пакете \LaTeX.~/ С.М.~Львовский. ---
+\newblock М.: МЦНМО, 2006. ---
+\newblock {С.}~448.
+
 \bibitem{chelnokov}
 \selectlanguageifdefined{russian}
 \BibEmph{Челноков,~Ю.Н.} Кватернионные и
@@ -24,13 +31,20 @@
 \newblock М.: Наука, 1973. ---
 \newblock 320~{с.}
 
-\bibitem{buhgolz}
+\bibitem{demidovich}
 \selectlanguageifdefined{russian}
-\BibEmph{Бухгольц,~Н.Н.} Основной курс
-  теоретической механики. Часть 2.~/
-  Н.Н.~Бухгольц. ---
-\newblock М.: Наука, 1966. ---
-\newblock 332~{с.}
+\BibEmph{Демидович,~Б.П.} Краткий курс высшей
+  математики.~/ Б.П.~Демидович, В.А.~Кудрявцев.
+  ---
+\newblock М: Астрель, 2006. ---
+\newblock {С.}~991.
+
+\bibitem{matan}
+\selectlanguageifdefined{russian}
+\BibEmph{Ильин,~В.А.} Математический анализ.
+  Продолжение курса.~/ В.А.~Ильин. ---
+\newblock М: МГУ, 1987. ---
+\newblock {С.}~244.
 
 \bibitem{pontryagin}
 \selectlanguageifdefined{russian}
@@ -47,41 +61,21 @@
 \newblock М.: Наука, 1971. ---
 \newblock {С.}~396.
 
-\bibitem{samarskii}
+\bibitem{buhgolz}
 \selectlanguageifdefined{russian}
-\BibEmph{Самарский,~А.А.} Численные методы.~/
-  А.А.~Самарский, А.В.~Гулин. ---
-\newblock М.: Наука, 1989. ---
-\newblock {С.}~432.
+\BibEmph{Бухгольц,~Н.Н.} Основной курс
+  теоретической механики. Часть 2.~/
+  Н.Н.~Бухгольц. ---
+\newblock М.: Наука, 1966. ---
+\newblock 332~{с.}
 
-\bibitem{matan}
+\bibitem{sapunkov}
 \selectlanguageifdefined{russian}
-\BibEmph{Ильин,~В.А.} Математический анализ.
-  Продолжение курса.~/ В.А.~Ильин. ---
-\newblock М: МГУ, 1987. ---
-\newblock {С.}~244.
-
-\bibitem{python}
-\selectlanguageifdefined{russian}
-\BibEmph{Сузи,~Р.А.} Язык программирования Python.~/
-  Р.А.~Сузи. ---
-\newblock М.: Интернет-Университет
-  Информационных Технологий, 2007. ---
-\newblock {С.}~327.
-
-\bibitem{latex}
-\selectlanguageifdefined{russian}
-\BibEmph{Львовский,~С.М.} Набор и верстка в
-  пакете \LaTeX.~/ С.М.~Львовский. ---
-\newblock М.: МЦНМО, 2006. ---
-\newblock {С.}~448.
-
-\bibitem{mechanics}
-\selectlanguageifdefined{russian}
-\BibEmph{Седов,~Л.И.} Механика сплошной среды.~/
-  Л.И.~Седов. ---
-\newblock М.: Наука, 1970. ---
-\newblock {С.}~166.
+\BibEmph{Сапунков,~Я.Г.} Численное исследование
+  систем автоматического управления.~/
+  Я.Г.~Сапунков. ---
+\newblock М: Наука, 2003. ---
+\newblock {С.}~22.
 
 \bibitem{methods}
 \selectlanguageifdefined{russian}
@@ -98,35 +92,12 @@
 \newblock М.: Наука, 1983. ---
 \newblock {С.}~393.
 
-\bibitem{demidovich}
+\bibitem{mechanics}
 \selectlanguageifdefined{russian}
-\BibEmph{Демидович,~Б.П.} Краткий курс высшей
-  математики.~/ Б.П.~Демидович, В.А.~Кудрявцев.
-  ---
-\newblock М: Астрель, 2006. ---
-\newblock {С.}~991.
-
-\bibitem{lutz}
-\selectlanguageifdefined{english}
-\BibEmph{Лутц,~Марк}. Изучаем Python~/ Марк~Лутц. ---
-\newblock М: Символ-Плюс, 2016. ---
-\newblock P.~1280.
-
-\bibitem{mongodb}
-\selectlanguageifdefined{russian}
-MongoDB Documentation. \BibUrl{ https://docs.mongodb.com}.
-
-\bibitem{scipy}
-\selectlanguageifdefined{russian}
-SciPy.org Documetation. \BibUrl{ https://www.scipy.org/docs.html}.
-
-\bibitem{sapunkov}
-\selectlanguageifdefined{russian}
-\BibEmph{Сапунков,~Я.Г.} Численное исследование
-  систем автоматического управления.~/
-  Я.Г.~Сапунков. ---
-\newblock М: Наука, 2003. ---
-\newblock {С.}~22.
+\BibEmph{Седов,~Л.И.} Механика сплошной среды.~/
+  Л.И.~Седов. ---
+\newblock М.: Наука, 1970. ---
+\newblock {С.}~166.
 
 \bibitem{antipova}
 \selectlanguageifdefined{russian}
@@ -146,11 +117,40 @@ SciPy.org Documetation. \BibUrl{ https://www.scipy.org/docs.html}.
 \newblock М.: Наука, 1971. ---
 \newblock {С.}~424.
 
+\bibitem{python}
+\selectlanguageifdefined{russian}
+\BibEmph{Сузи,~Р.А.} Язык программирования Python.~/
+  Р.А.~Сузи. ---
+\newblock М.: Интернет-Университет
+  Информационных Технологий, 2007. ---
+\newblock {С.}~327.
+
+\bibitem{scipy}
+\selectlanguageifdefined{russian}
+SciPy.org Documetation. \BibUrl{ https://www.scipy.org/docs.html}.
+
+\bibitem{mongodb}
+\selectlanguageifdefined{russian}
+MongoDB Documentation. \BibUrl{ https://docs.mongodb.com}.
+
+\bibitem{samarskii}
+\selectlanguageifdefined{russian}
+\BibEmph{Самарский,~А.А.} Численные методы.~/
+  А.А.~Самарский, А.В.~Гулин. ---
+\newblock М.: Наука, 1989. ---
+\newblock {С.}~432.
+
 \bibitem{vasileva}
 \selectlanguageifdefined{russian}
 \BibEmph{Васильева,~А.Б.} Дифференциальные
   уравнения.~/ А.Б.~Васильева, А.Н.~Тихонов. ---
 \newblock М.: ФИЗМАТЛИТ, 2005. ---
 \newblock {С.}~254.
+
+\bibitem{lutz}
+\selectlanguageifdefined{english}
+\BibEmph{Лутц,~Марк}. Изучаем Python~/ Марк~Лутц. ---
+\newblock М: Символ-Плюс, 2016. ---
+\newblock P.~1280.
 
 \end{thebibliography}
