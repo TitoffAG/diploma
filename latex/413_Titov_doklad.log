@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.3.28)  12 MAY 2019 02:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.3.28)  12 MAY 2019 16:20
 entering extended mode
 **./413_Titov_doklad.tex
 (413_Titov_doklad.tex
@@ -895,11 +895,128 @@ LaTeX Info: Redefining \textlatin on input line 2003.
 Package babel Info: Making " an active character on input line 120.
 Package babel Info: Default for \cyrdash is provided on input line 157.
 ))
-("C:\Program Files\MiKTeX 2.9\tex/latex/beamer\beamerthemeCambridgeUS.sty"
-("C:\Program Files\MiKTeX 2.9\tex/latex/beamer\beamerinnerthemerounded.sty")
-("C:\Program Files\MiKTeX 2.9\tex/latex/beamer\beamerouterthemeinfolines.sty")
-("C:\Program Files\MiKTeX 2.9\tex/latex/beamer\beamercolorthemebeaver.sty"))
-("C:\Program Files\MiKTeX 2.9\tex/latex/beamer\beamercolorthemeorchid.sty")
+("C:\Program Files\MiKTeX 2.9\tex/latex/beamertheme-metropolis\beamerthememetro
+polis.sty"
+Package: beamerthememetropolis 2017/01/23 v1.2 Metropolis Beamer theme
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/pgfopts\pgfopts.sty"
+Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/utilities\pgfkeys.sty"
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfkeys.code.tex"))
+\pgfopts@list@add@a@toks=\toks45
+\pgfopts@list@add@b@toks=\toks46
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/beamertheme-metropolis\beamerinnertheme
+metropolis.sty"
+Package: beamerinnerthememetropolis 2017/01/23 Metropolis inner theme
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/tools\calc.sty"
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count158
+\calc@Bcount=\count159
+\calc@Adimen=\dimen190
+\calc@Bdimen=\dimen191
+\calc@Askip=\skip57
+\calc@Bskip=\skip58
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count160
+\calc@Cskip=\skip59
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/frontendlayer\tikz.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgf.sty"
+Package: pgf 2019/05/09 v3.1.3 (3.1.3)
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/modules\pgfmoduleshapes.code.tex"
+File: pgfmoduleshapes.code.tex 2019/05/09 v3.1.3 (3.1.3)
+\pgfnodeparttextbox=\box54
+) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/modules\pgfmoduleplot.code.tex"
+File: pgfmoduleplot.code.tex 2019/05/09 v3.1.3 (3.1.3)
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/compatibility\pgfcomp-version-0-65.
+sty"
+Package: pgfcomp-version-0-65 2019/05/09 v3.1.3 (3.1.3)
+\pgf@nodesepstart=\dimen192
+\pgf@nodesepend=\dimen193
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/compatibility\pgfcomp-version-1-18.
+sty"
+Package: pgfcomp-version-1-18 2019/05/09 v3.1.3 (3.1.3)
+)) ("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/utilities\pgffor.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/math\pgfmath.sty"
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.code.tex"))
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgffor.code.tex"
+Package: pgffor 2019/05/09 v3.1.3 (3.1.3)
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.code.tex")
+\pgffor@iter=\dimen194
+\pgffor@skip=\dimen195
+\pgffor@stack=\toks47
+\pgffor@toks=\toks48
+))
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex"
+Package: tikz 2019/05/09 v3.1.3 (3.1.3)
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/libraries\pgflibraryplothandlers.
+code.tex"
+File: pgflibraryplothandlers.code.tex 2019/05/09 v3.1.3 (3.1.3)
+\pgf@plot@mark@count=\count161
+\pgfplotmarksize=\dimen196
+)
+\tikz@lastx=\dimen197
+\tikz@lasty=\dimen198
+\tikz@lastxsaved=\dimen199
+\tikz@lastysaved=\dimen256
+\tikzleveldistance=\dimen257
+\tikzsiblingdistance=\dimen258
+\tikz@figbox=\box55
+\tikz@figbox@bg=\box56
+\tikz@tempbox=\box57
+\tikz@tempbox@bg=\box58
+\tikztreelevel=\count162
+\tikznumberofchildren=\count163
+\tikznumberofcurrentchild=\count164
+\tikz@fig@count=\count165
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/modules\pgfmodulematrix.code.tex"
+File: pgfmodulematrix.code.tex 2019/05/09 v3.1.3 (3.1.3)
+\pgfmatrixcurrentrow=\count166
+\pgfmatrixcurrentcolumn=\count167
+\pgf@matrix@numberofcolumns=\count168
+)
+\tikz@expandcount=\count169
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikz
+librarytopaths.code.tex"
+File: tikzlibrarytopaths.code.tex 2019/05/09 v3.1.3 (3.1.3)
+)))
+\metropolis@titleseparator@linewidth=\skip60
+\metropolis@progressonsectionpage=\skip61
+\metropolis@progressonsectionpage@linewidth=\skip62
+\metropolis@blocksep=\skip63
+\metropolis@blockadjust=\skip64
+\metropolis@parskip=\skip65
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/beamertheme-metropolis\beameroutertheme
+metropolis.sty"
+Package: beamerouterthememetropolis 2017/01/23 Metropolis outer theme
+\metropolis@frametitle@padding=\skip66
+\metropolis@progressinheadfoot=\skip67
+\metropolis@progressinheadfoot@linewidth=\skip68
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/beamertheme-metropolis\beamercolortheme
+metropolis.sty"
+Package: beamercolorthememetropolis 2017/01/23 Metropolis color theme
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/beamertheme-metropolis\beamerfontthemem
+etropolis.sty"
+Package: beamerfontthememetropolis 2017/01/23 Metropolis font theme
+
+
+Package beamerthememetropolis Warning: You need to compile with XeLaTeX or LuaL
+aTeX to use the Fira fonts on input line 95.
+
+)) ("C:\Program Files\MiKTeX 2.9\tex/latex/beamer\beamercolorthemespruce.sty")
+("C:\Program Files\MiKTeX 2.9\tex/latex/beamer\beamercolorthemestructure.sty")
 ("C:\Program Files\MiKTeX 2.9\tex/latex/animate\animate.sty"
 Package: animate 2019/04/09 PDF & SVG animations from files and inline graphics
 
@@ -909,10 +1026,10 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 ("C:\Program Files\MiKTeX 2.9\tex/generic/xkeyval\xkeyval.tex"
 ("C:\Program Files\MiKTeX 2.9\tex/generic/xkeyval\xkvutils.tex"
-\XKV@toks=\toks45
-\XKV@tempa@toks=\toks46
+\XKV@toks=\toks49
+\XKV@tempa@toks=\toks50
 )
-\XKV@depth=\count158
+\XKV@depth=\count170
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\ifthen.sty"
@@ -920,19 +1037,6 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\ifdraft.sty"
 Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
-)
-("C:\Program Files\MiKTeX 2.9\tex/latex/tools\calc.sty"
-Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count159
-\calc@Bcount=\count160
-\calc@Adimen=\dimen190
-\calc@Bdimen=\dimen191
-\calc@Askip=\skip57
-\calc@Bskip=\skip58
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count161
-\calc@Cskip=\skip59
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\zref-abspage.sty"
 Package: zref-abspage 2018/11/21 v2.27 Module abspage for zref (HO)
@@ -943,7 +1047,7 @@ Package zref Info: New property list: main on input line 759.
 Package zref Info: New property: default on input line 760.
 Package zref Info: New property: page on input line 761.
 )
-\c@abspage=\count162
+\c@abspage=\count171
 Package zref Info: New property: abspage on input line 62.
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/media9\pdfbase.sty"
@@ -952,193 +1056,191 @@ Package: expl3 2019-05-09 L3 programming layer (loader)
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/l3kernel\expl3-code.tex"
 Package: expl3 2019-05-09 L3 programming layer (code)
-\c_max_int=\count163
-\l_tmpa_int=\count164
-\l_tmpb_int=\count165
-\g_tmpa_int=\count166
-\g_tmpb_int=\count167
-\g__kernel_prg_map_int=\count168
-\c__ior_term_ior=\count169
-\c_log_iow=\count170
-\l_iow_line_count_int=\count171
-\l__iow_line_target_int=\count172
-\l__iow_one_indent_int=\count173
-\l__iow_indent_int=\count174
-\c_zero_dim=\dimen192
-\c_max_dim=\dimen193
-\l_tmpa_dim=\dimen194
-\l_tmpb_dim=\dimen195
-\g_tmpa_dim=\dimen196
-\g_tmpb_dim=\dimen197
-\c_zero_skip=\skip60
-\c_max_skip=\skip61
-\l_tmpa_skip=\skip62
-\l_tmpb_skip=\skip63
-\g_tmpa_skip=\skip64
-\g_tmpb_skip=\skip65
+\c_max_int=\count172
+\l_tmpa_int=\count173
+\l_tmpb_int=\count174
+\g_tmpa_int=\count175
+\g_tmpb_int=\count176
+\g__kernel_prg_map_int=\count177
+\c__ior_term_ior=\count178
+\c_log_iow=\count179
+\l_iow_line_count_int=\count180
+\l__iow_line_target_int=\count181
+\l__iow_one_indent_int=\count182
+\l__iow_indent_int=\count183
+\c_zero_dim=\dimen259
+\c_max_dim=\dimen260
+\l_tmpa_dim=\dimen261
+\l_tmpb_dim=\dimen262
+\g_tmpa_dim=\dimen263
+\g_tmpb_dim=\dimen264
+\c_zero_skip=\skip69
+\c_max_skip=\skip70
+\l_tmpa_skip=\skip71
+\l_tmpb_skip=\skip72
+\g_tmpa_skip=\skip73
+\g_tmpb_skip=\skip74
 \c_zero_muskip=\muskip12
 \c_max_muskip=\muskip13
 \l_tmpa_muskip=\muskip14
 \l_tmpb_muskip=\muskip15
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
-\l_keys_choice_int=\count175
-\l__intarray_loop_int=\count176
-\c__intarray_sp_dim=\dimen198
-\g__intarray_font_int=\count177
-\c__fp_leading_shift_int=\count178
-\c__fp_middle_shift_int=\count179
-\c__fp_trailing_shift_int=\count180
-\c__fp_big_leading_shift_int=\count181
-\c__fp_big_middle_shift_int=\count182
-\c__fp_big_trailing_shift_int=\count183
-\c__fp_Bigg_leading_shift_int=\count184
-\c__fp_Bigg_middle_shift_int=\count185
-\c__fp_Bigg_trailing_shift_int=\count186
-\c__kernel_randint_max_int=\count187
-\g__fp_array_int=\count188
-\l__fp_array_loop_int=\count189
-\l__sort_length_int=\count190
-\l__sort_min_int=\count191
-\l__sort_top_int=\count192
-\l__sort_max_int=\count193
-\l__sort_true_max_int=\count194
-\l__sort_block_int=\count195
-\l__sort_begin_int=\count196
-\l__sort_end_int=\count197
-\l__sort_A_int=\count198
-\l__sort_B_int=\count199
-\l__sort_C_int=\count266
-\l__tl_analysis_normal_int=\count267
-\l__tl_analysis_index_int=\count268
-\l__tl_analysis_nesting_int=\count269
-\l__tl_analysis_type_int=\count270
-\l__regex_internal_a_int=\count271
-\l__regex_internal_b_int=\count272
-\l__regex_internal_c_int=\count273
-\l__regex_balance_int=\count274
-\l__regex_group_level_int=\count275
-\l__regex_mode_int=\count276
-\c__regex_cs_in_class_mode_int=\count277
-\c__regex_cs_mode_int=\count278
-\l__regex_catcodes_int=\count279
-\l__regex_default_catcodes_int=\count280
-\c__regex_catcode_D_int=\count281
-\c__regex_catcode_S_int=\count282
-\c__regex_catcode_L_int=\count283
-\c__regex_catcode_O_int=\count284
-\c__regex_catcode_A_int=\count285
-\c__regex_all_catcodes_int=\count286
-\l__regex_show_lines_int=\count287
-\l__regex_min_state_int=\count288
-\l__regex_max_state_int=\count289
-\l__regex_left_state_int=\count290
-\l__regex_right_state_int=\count291
-\l__regex_capturing_group_int=\count292
-\l__regex_min_pos_int=\count293
-\l__regex_max_pos_int=\count294
-\l__regex_curr_pos_int=\count295
-\l__regex_start_pos_int=\count296
-\l__regex_success_pos_int=\count297
-\l__regex_curr_char_int=\count298
-\l__regex_curr_catcode_int=\count299
-\l__regex_last_char_int=\count300
-\l__regex_case_changed_char_int=\count301
-\l__regex_curr_state_int=\count302
-\l__regex_step_int=\count303
-\l__regex_min_active_int=\count304
-\l__regex_max_active_int=\count305
-\l__regex_replacement_csnames_int=\count306
-\l__regex_match_count_int=\count307
-\l__regex_min_submatch_int=\count308
-\l__regex_submatch_int=\count309
-\l__regex_zeroth_submatch_int=\count310
-\g__regex_trace_regex_int=\count311
-\c_empty_box=\box54
-\l_tmpa_box=\box55
-\l_tmpb_box=\box56
-\g_tmpa_box=\box57
-\g_tmpb_box=\box58
-\l__box_top_dim=\dimen199
-\l__box_bottom_dim=\dimen256
-\l__box_left_dim=\dimen257
-\l__box_right_dim=\dimen258
-\l__box_top_new_dim=\dimen259
-\l__box_bottom_new_dim=\dimen260
-\l__box_left_new_dim=\dimen261
-\l__box_right_new_dim=\dimen262
-\l__box_internal_box=\box59
-\l__coffin_internal_box=\box60
-\l__coffin_internal_dim=\dimen263
-\l__coffin_offset_x_dim=\dimen264
-\l__coffin_offset_y_dim=\dimen265
-\l__coffin_x_dim=\dimen266
-\l__coffin_y_dim=\dimen267
-\l__coffin_x_prime_dim=\dimen268
-\l__coffin_y_prime_dim=\dimen269
-\c_empty_coffin=\box61
-\l__coffin_aligned_coffin=\box62
-\l__coffin_aligned_internal_coffin=\box63
-\l_tmpa_coffin=\box64
-\l_tmpb_coffin=\box65
-\g_tmpa_coffin=\box66
-\g_tmpb_coffin=\box67
-\l__coffin_bounding_shift_dim=\dimen270
-\l__coffin_left_corner_dim=\dimen271
-\l__coffin_right_corner_dim=\dimen272
-\l__coffin_bottom_corner_dim=\dimen273
-\l__coffin_top_corner_dim=\dimen274
-\l__coffin_scaled_total_height_dim=\dimen275
-\l__coffin_scaled_width_dim=\dimen276
-\c__coffin_empty_coffin=\box68
-\l__coffin_display_coffin=\box69
-\l__coffin_display_coord_coffin=\box70
-\l__coffin_display_pole_coffin=\box71
-\l__coffin_display_offset_dim=\dimen277
-\l__coffin_display_x_dim=\dimen278
-\l__coffin_display_y_dim=\dimen279
+\l_keys_choice_int=\count184
+\l__intarray_loop_int=\count185
+\c__intarray_sp_dim=\dimen265
+\g__intarray_font_int=\count186
+\c__fp_leading_shift_int=\count187
+\c__fp_middle_shift_int=\count188
+\c__fp_trailing_shift_int=\count189
+\c__fp_big_leading_shift_int=\count190
+\c__fp_big_middle_shift_int=\count191
+\c__fp_big_trailing_shift_int=\count192
+\c__fp_Bigg_leading_shift_int=\count193
+\c__fp_Bigg_middle_shift_int=\count194
+\c__fp_Bigg_trailing_shift_int=\count195
+\c__kernel_randint_max_int=\count196
+\g__fp_array_int=\count197
+\l__fp_array_loop_int=\count198
+\l__sort_length_int=\count199
+\l__sort_min_int=\count266
+\l__sort_top_int=\count267
+\l__sort_max_int=\count268
+\l__sort_true_max_int=\count269
+\l__sort_block_int=\count270
+\l__sort_begin_int=\count271
+\l__sort_end_int=\count272
+\l__sort_A_int=\count273
+\l__sort_B_int=\count274
+\l__sort_C_int=\count275
+\l__tl_analysis_normal_int=\count276
+\l__tl_analysis_index_int=\count277
+\l__tl_analysis_nesting_int=\count278
+\l__tl_analysis_type_int=\count279
+\l__regex_internal_a_int=\count280
+\l__regex_internal_b_int=\count281
+\l__regex_internal_c_int=\count282
+\l__regex_balance_int=\count283
+\l__regex_group_level_int=\count284
+\l__regex_mode_int=\count285
+\c__regex_cs_in_class_mode_int=\count286
+\c__regex_cs_mode_int=\count287
+\l__regex_catcodes_int=\count288
+\l__regex_default_catcodes_int=\count289
+\c__regex_catcode_D_int=\count290
+\c__regex_catcode_S_int=\count291
+\c__regex_catcode_L_int=\count292
+\c__regex_catcode_O_int=\count293
+\c__regex_catcode_A_int=\count294
+\c__regex_all_catcodes_int=\count295
+\l__regex_show_lines_int=\count296
+\l__regex_min_state_int=\count297
+\l__regex_max_state_int=\count298
+\l__regex_left_state_int=\count299
+\l__regex_right_state_int=\count300
+\l__regex_capturing_group_int=\count301
+\l__regex_min_pos_int=\count302
+\l__regex_max_pos_int=\count303
+\l__regex_curr_pos_int=\count304
+\l__regex_start_pos_int=\count305
+\l__regex_success_pos_int=\count306
+\l__regex_curr_char_int=\count307
+\l__regex_curr_catcode_int=\count308
+\l__regex_last_char_int=\count309
+\l__regex_case_changed_char_int=\count310
+\l__regex_curr_state_int=\count311
+\l__regex_step_int=\count312
+\l__regex_min_active_int=\count313
+\l__regex_max_active_int=\count314
+\l__regex_replacement_csnames_int=\count315
+\l__regex_match_count_int=\count316
+\l__regex_min_submatch_int=\count317
+\l__regex_submatch_int=\count318
+\l__regex_zeroth_submatch_int=\count319
+\g__regex_trace_regex_int=\count320
+\c_empty_box=\box59
+\l_tmpa_box=\box60
+\l_tmpb_box=\box61
+\g_tmpa_box=\box62
+\g_tmpb_box=\box63
+\l__box_top_dim=\dimen266
+\l__box_bottom_dim=\dimen267
+\l__box_left_dim=\dimen268
+\l__box_right_dim=\dimen269
+\l__box_top_new_dim=\dimen270
+\l__box_bottom_new_dim=\dimen271
+\l__box_left_new_dim=\dimen272
+\l__box_right_new_dim=\dimen273
+\l__box_internal_box=\box64
+\l__coffin_internal_box=\box65
+\l__coffin_internal_dim=\dimen274
+\l__coffin_offset_x_dim=\dimen275
+\l__coffin_offset_y_dim=\dimen276
+\l__coffin_x_dim=\dimen277
+\l__coffin_y_dim=\dimen278
+\l__coffin_x_prime_dim=\dimen279
+\l__coffin_y_prime_dim=\dimen280
+\c_empty_coffin=\box66
+\l__coffin_aligned_coffin=\box67
+\l__coffin_aligned_internal_coffin=\box68
+\l_tmpa_coffin=\box69
+\l_tmpb_coffin=\box70
+\g_tmpa_coffin=\box71
+\g_tmpb_coffin=\box72
+\l__coffin_bounding_shift_dim=\dimen281
+\l__coffin_left_corner_dim=\dimen282
+\l__coffin_right_corner_dim=\dimen283
+\l__coffin_bottom_corner_dim=\dimen284
+\l__coffin_top_corner_dim=\dimen285
+\l__coffin_scaled_total_height_dim=\dimen286
+\l__coffin_scaled_width_dim=\dimen287
+\c__coffin_empty_coffin=\box73
+\l__coffin_display_coffin=\box74
+\l__coffin_display_coord_coffin=\box75
+\l__coffin_display_pole_coffin=\box76
+\l__coffin_display_offset_dim=\dimen288
+\l__coffin_display_x_dim=\dimen289
+\l__coffin_display_y_dim=\dimen290
 \g__file_internal_ior=\read2
-\l__seq_internal_a_int=\count312
-\l__seq_internal_b_int=\count313
-\c__deprecation_minus_one=\count314
+\l__seq_internal_a_int=\count321
+\l__seq_internal_b_int=\count322
+\c__deprecation_minus_one=\count323
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/l3kernel\l3pdfmode.def"
 File: l3pdfmode.def 2019-04-06 v L3 Experimental driver: PDF mode
-\l__driver_internal_box=\box72
-\l__driver_color_stack_int=\count315
+\l__driver_internal_box=\box77
+\l__driver_color_stack_int=\count324
 ))
 ("C:\Program Files\MiKTeX 2.9\tex/latex/l3packages/l3keys2e\l3keys2e.sty"
 Package: l3keys2e 2019-05-03 LaTeX2e option processing using LaTeX3 keys
 )
 Package: pdfbase 2019/05/02 v0.28 driver independent access to low-level PDF fe
 atures
-\g_pbs_page_int=\count316
-\g_pbs_oc_int=\count317
+\g_pbs_page_int=\count325
+\g_pbs_oc_int=\count326
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/ocgx2\ocgbase.sty"
 Package: ocgbase 2018/06/07 v0.14 support package for ocgx2.sty
-\g_ocgbase_nd_int=\count318
+\g_ocgbase_nd_int=\count327
 )
-\@anim@box=\box73
-\@anim@measbox=\box74
-\@anim@tmpdima=\dimen280
-\@anim@tmpdimb=\dimen281
-\@anim@num=\count319
-\@anim@curframe=\count320
-\@anim@curframe@zb=\count321
-\@anim@resizeflags=\count322
-\@anim@skipfram=\count323
-\@anim@mulframecnt=\count324
+\@anim@box=\box78
+\@anim@measbox=\box79
+\@anim@tmpdima=\dimen291
+\@anim@tmpdimb=\dimen292
+\@anim@num=\count328
+\@anim@curframe=\count329
+\@anim@curframe@zb=\count330
+\@anim@resizeflags=\count331
+\@anim@skipfram=\count332
+\@anim@mulframecnt=\count333
 \@anim@@tmlnfile=\read3
-\@anim@tmpcnt=\count325
-\c@@anim@ltxcnt=\count326
-\@anim@curlayer=\count327
-\@anim@lineno=\count328
-\@anim@curfield=\count329
-\@anim@@resizeflags=\count330
+\@anim@tmpcnt=\count334
+\c@@anim@ltxcnt=\count335
+\@anim@curlayer=\count336
+\@anim@lineno=\count337
+\@anim@curfield=\count338
+\@anim@@resizeflags=\count339
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 26.
-
 ("C:\Program Files\MiKTeX 2.9\tex/latex/tools\indentfirst.sty"
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
@@ -1152,11 +1254,11 @@ Package cmap Warning: fontenc already loaded - some fonts may be unprocessed.
 Package: fancyvrb 2019/01/15
 
 Style option: `fancyvrb' v3.2a <2019/01/15> (tvz)
-\FV@CodeLineNo=\count331
+\FV@CodeLineNo=\count340
 \FV@InFile=\read4
-\FV@TabBox=\box75
-\c@FancyVerbLine=\count332
-\FV@StepNumber=\count333
+\FV@TabBox=\box80
+\c@FancyVerbLine=\count341
+\FV@StepNumber=\count342
 \FV@OutFile=\write5
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\latexsym.sty"
@@ -1179,91 +1281,70 @@ LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
-\g_MT_multlinerow_int=\count334
-\l_MT_multwidth_dim=\dimen282
-\origjot=\skip66
-\l_MT_shortvdotswithinadjustabove_dim=\dimen283
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen284
-\l_MT_above_intertext_sep=\dimen285
-\l_MT_below_intertext_sep=\dimen286
-\l_MT_above_shortintertext_sep=\dimen287
-\l_MT_below_shortintertext_sep=\dimen288
+\g_MT_multlinerow_int=\count343
+\l_MT_multwidth_dim=\dimen293
+\origjot=\skip75
+\l_MT_shortvdotswithinadjustabove_dim=\dimen294
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen295
+\l_MT_above_intertext_sep=\dimen296
+\l_MT_below_intertext_sep=\dimen297
+\l_MT_above_shortintertext_sep=\dimen298
+\l_MT_below_shortintertext_sep=\dimen299
 ))
 ("C:\Program Files\MiKTeX 2.9\tex/latex/xtab\xtab.sty"
 Package: xtab 2011/07/31 v2.3f Extended supertabular package
-\c@tracingst=\count335
-\PWSTcapht=\dimen289
-\ST@wd=\dimen290
-\ST@rightskip=\skip67
-\ST@leftskip=\skip68
-\ST@parfillskip=\skip69
-\c@PWSTtable=\count336
-\PWSTlastpage=\count337
-\PWSTpenultimate=\count338
-\PWSTcurpage=\count339
-\PWSTtempc=\count340
-\PWSTlines=\count341
-\PWST@lastht=\dimen291
-\PWST@generalht=\dimen292
-\PWST@ht=\dimen293
-\ST@pageleft=\dimen294
-\ST@headht=\dimen295
-\ST@tailht=\dimen296
-\ST@pagesofar=\dimen297
-\ST@pboxht=\dimen298
-\ST@lineht=\dimen299
-\ST@stretchht=\dimen300
-\ST@prevht=\dimen301
-\ST@toadd=\dimen302
-\ST@dimen=\dimen303
-\ST@pbox=\box76
-) (413_Titov_doklad.aux
-
-LaTeX Warning: Label `one' multiply defined.
-
-
-LaTeX Warning: Label `one' multiply defined.
-
-
-LaTeX Warning: Label `one' multiply defined.
-
-
-LaTeX Warning: Label `one' multiply defined.
-
-
-LaTeX Warning: Label `one' multiply defined.
-
-
-LaTeX Warning: Label `one' multiply defined.
-
-
-LaTeX Warning: Label `one' multiply defined.
-
-)
+\c@tracingst=\count344
+\PWSTcapht=\dimen300
+\ST@wd=\dimen301
+\ST@rightskip=\skip76
+\ST@leftskip=\skip77
+\ST@parfillskip=\skip78
+\c@PWSTtable=\count345
+\PWSTlastpage=\count346
+\PWSTpenultimate=\count347
+\PWSTcurpage=\count348
+\PWSTtempc=\count349
+\PWSTlines=\count350
+\PWST@lastht=\dimen302
+\PWST@generalht=\dimen303
+\PWST@ht=\dimen304
+\ST@pageleft=\dimen305
+\ST@headht=\dimen306
+\ST@tailht=\dimen307
+\ST@pagesofar=\dimen308
+\ST@pboxht=\dimen309
+\ST@lineht=\dimen310
+\ST@stretchht=\dimen311
+\ST@prevht=\dimen312
+\ST@toadd=\dimen313
+\ST@dimen=\dimen314
+\ST@pbox=\box81
+) (413_Titov_doklad.aux)
 \openout1 = `413_Titov_doklad.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 40.
-LaTeX Font Info:    Try loading font information for T2A+cmr on input line 40.
- ("C:\Program Files\MiKTeX 2.9\tex/latex/cyrillic\t2acmr.fd"
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 35.
+LaTeX Font Info:    Try loading font information for T2A+cmr on input line 35.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/cyrillic\t2acmr.fd"
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    ... okay on input line 35.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1273,14 +1354,14 @@ LaTeX Font Info:    ... okay on input line 40.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(9.99756pt, 344.20024pt, 9.99756pt)
+* h-part:(L,W,R)=(28.45274pt, 307.28987pt, 28.45274pt)
 * v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
 * \paperwidth=364.19536pt
 * \paperheight=273.14662pt
-* \textwidth=344.20024pt
+* \textwidth=307.28987pt
 * \textheight=244.6939pt
-* \oddsidemargin=-62.27243pt
-* \evensidemargin=-62.27243pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
 * \topmargin=-72.26999pt
 * \headheight=14.22636pt
 * \headsep=0.0pt
@@ -1301,17 +1382,17 @@ LaTeX Font Info:    ... okay on input line 40.
 
 ("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count342
-\scratchdimen=\dimen304
-\scratchbox=\box77
-\nofMPsegments=\count343
-\nofMParguments=\count344
-\everyMPshowfont=\toks47
-\MPscratchCnt=\count345
-\MPscratchDim=\dimen305
-\MPnumerator=\count346
-\makeMPintoPDFobject=\count347
-\everyMPtoPDFconversion=\toks48
+\scratchcounter=\count351
+\scratchdimen=\dimen315
+\scratchbox=\box82
+\nofMPsegments=\count352
+\nofMParguments=\count353
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count354
+\MPscratchDim=\dimen316
+\MPnumerator=\count355
+\makeMPintoPDFobject=\count356
+\everyMPtoPDFconversion=\toks52
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1326,8 +1407,8 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box78
-Package hyperref Info: Link coloring ON on input line 40.
+\AtBeginShipoutBox=\box83
+Package hyperref Info: Link coloring OFF on input line 35.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1335,73 +1416,73 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count348
+\c@section@level=\count357
 )
-LaTeX Info: Redefining \ref on input line 40.
-LaTeX Info: Redefining \pageref on input line 40.
-LaTeX Info: Redefining \nameref on input line 40.
+LaTeX Info: Redefining \ref on input line 35.
+LaTeX Info: Redefining \pageref on input line 35.
+LaTeX Info: Redefining \nameref on input line 35.
 
 (413_Titov_doklad.out) (413_Titov_doklad.out)
 \@outlinefile=\write6
 \openout6 = `413_Titov_doklad.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 40.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 35.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 40.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 35.
 \symnumbers=\mathgroup7
 \sympureletters=\mathgroup8
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T2A/cmr/m/n on input line 40.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 40.
+(Font)                  OT1/cmss/m/n --> T2A/cmr/m/n on input line 35.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T2A/cmss/bx/n on input line 40.
+(Font)                  OT1/cmr/bx/n --> T2A/cmss/bx/n on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T2A/cmss/bx/n on input line 40.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 40.
+(Font)                  OT1/cmr/bx/n --> T2A/cmss/bx/n on input line 35.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T2A/cmss/m/n on input line 40.
+(Font)                  OT1/cmss/m/n --> T2A/cmss/m/n on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T2A/cmss/m/n on input line 40.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 40.
+(Font)                  OT1/cmss/bx/n --> T2A/cmss/m/n on input line 35.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T2A/cmss/m/it on input line 40.
+(Font)                  OT1/cmr/m/it --> T2A/cmss/m/it on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T2A/cmss/m/it on input line 40.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 40.
+(Font)                  OT1/cmr/bx/it --> T2A/cmss/m/it on input line 35.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T2A/cmtt/m/n on input line 40.
+(Font)                  OT1/cmtt/m/n --> T2A/cmtt/m/n on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T2A/cmtt/m/n on input line 40.
+(Font)                  OT1/cmtt/m/n --> T2A/cmtt/m/n on input line 35.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T2A/cmss/m/n --> T2A/cmss/bx/n on input line 40.
+(Font)                  T2A/cmss/m/n --> T2A/cmss/bx/n on input line 35.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T2A/cmss/m/it --> T2A/cmss/bx/it on input line 40.
+(Font)                  T2A/cmss/m/it --> T2A/cmss/bx/it on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T2A/cmr/bx/n on input line 40.
+(Font)                  OT1/cmss/bx/n --> T2A/cmr/bx/n on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T2A/cmss/bx/n --> T2A/cmss/bx/n on input line 40.
+(Font)                  T2A/cmss/bx/n --> T2A/cmss/bx/n on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T2A/cmss/m/n --> T2A/cmss/bx/n on input line 40.
+(Font)                  T2A/cmss/m/n --> T2A/cmss/bx/n on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T2A/cmss/m/it --> T2A/cmss/bx/it on input line 40.
+(Font)                  T2A/cmss/m/it --> T2A/cmss/bx/it on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T2A/cmtt/m/n --> T2A/cmtt/bx/n on input line 40.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 40.
+(Font)                  T2A/cmtt/m/n --> T2A/cmtt/bx/n on input line 35.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 35.
 LaTeX Font Info:    Encoding `T2A' has changed to `OT1' for symbol font
-(Font)              `pureletters' in the math version `normal' on input line 40
+(Font)              `pureletters' in the math version `normal' on input line 35
 .
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  T2A/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 4
-0.
+(Font)                  T2A/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 3
+5.
 LaTeX Font Info:    Encoding `T2A' has changed to `OT1' for symbol font
-(Font)              `pureletters' in the math version `bold' on input line 40.
+(Font)              `pureletters' in the math version `bold' on input line 35.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  T2A/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 
-40.
+35.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 40.
+ut line 35.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/translator\translator-basic-dictionary-
 English.dict"
@@ -1426,135 +1507,135 @@ Dictionary: translator-numbers-dictionary, Language: English
 ("C:\Program Files\MiKTeX 2.9\tex/latex/translator\translator-theorem-dictionar
 y-English.dict"
 Dictionary: translator-theorem-dictionary, Language: English 
-) (413_Titov_doklad.nav)<<t2a.cmap>> [1
+) (413_Titov_doklad.nav)<<t2a.cmap>>
+Overfull \vbox (41.81862pt too high) detected at line 40
+ []
 
-{C:/Users/titoffag/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
+[1
+
+{C:/Users/titoffag/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+[2
 
 ] [3
 
 ] [4
 
 ]
-<fig/functional_1_5-3_7_50.png, id=54, 462.528pt x 346.896pt>
+<fig/functional_1_5-3_7_50.png, id=43, 462.528pt x 346.896pt>
 File: fig/functional_1_5-3_7_50.png Graphic file (type png)
 <use fig/functional_1_5-3_7_50.png>
-Package pdftex.def Info: fig/functional_1_5-3_7_50.png  used on input line 71.
+Package pdftex.def Info: fig/functional_1_5-3_7_50.png  used on input line 63.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
-LaTeX Font Info:    Try loading font information for U+msa on input line 71.
+LaTeX Font Info:    Try loading font information for U+msa on input line 63.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 71.
+LaTeX Font Info:    Try loading font information for U+msb on input line 63.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 71.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 63.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 71.
+line 63.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/sansmathaccent\ot1mathkerncmss.fd"
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
+Overfull \vbox (7.00092pt too high) detected at line 63
+ []
+
 [5
 
- <./fig/functional_1_5-3_7_50.png>]pdfTeX warning (ext4): destination with the 
-same identifier (name{one}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.79 \end{frame}
-                
-<fig/ivp_and_control_1_5-3_7_50.png, id=71, 462.528pt x 346.896pt>
+ <./fig/functional_1_5-3_7_50.png>]
+<fig/ivp_and_control_1_5-3_7_50.png, id=59, 462.528pt x 346.896pt>
 File: fig/ivp_and_control_1_5-3_7_50.png Graphic file (type png)
 <use fig/ivp_and_control_1_5-3_7_50.png>
 Package pdftex.def Info: fig/ivp_and_control_1_5-3_7_50.png  used on input line
- 79.
+ 70.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
- [6
 
- <./fig/ivp_and_control_1_5-3_7_50.png>]pdfTeX warning (ext4): destination with
- the same identifier (name{one}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.87 \end{frame}
-                
+Overfull \vbox (7.00092pt too high) detected at line 70
+ []
+
+[6
+
+ <./fig/ivp_and_control_1_5-3_7_50.png>]
 File: fig/functional_1_5-3_7_50.png Graphic file (type png)
 <use fig/functional_1_5-3_7_50.png>
-Package pdftex.def Info: fig/functional_1_5-3_7_50.png  used on input line 87.
+Package pdftex.def Info: fig/functional_1_5-3_7_50.png  used on input line 77.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
- [7
 
-]pdfTeX warning (ext4): destination with the same identifier (name{one}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.95 \end{frame}
-                
+Overfull \vbox (7.00092pt too high) detected at line 77
+ []
+
+[7
+
+]
 File: fig/ivp_and_control_1_5-3_7_50.png Graphic file (type png)
 <use fig/ivp_and_control_1_5-3_7_50.png>
 Package pdftex.def Info: fig/ivp_and_control_1_5-3_7_50.png  used on input line
- 95.
+ 84.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
- [8
 
-]pdfTeX warning (ext4): destination with the same identifier (name{one}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.103 \end{frame}
-                 
+Overfull \vbox (7.00092pt too high) detected at line 84
+ []
+
+[8
+
+]
 File: fig/functional_1_5-3_7_50.png Graphic file (type png)
 <use fig/functional_1_5-3_7_50.png>
-Package pdftex.def Info: fig/functional_1_5-3_7_50.png  used on input line 103.
-
+Package pdftex.def Info: fig/functional_1_5-3_7_50.png  used on input line 92.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
- [9
 
-]pdfTeX warning (ext4): destination with the same identifier (name{one}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.111 \end{frame}
-                 
+Overfull \vbox (7.00092pt too high) detected at line 92
+ []
+
+[9
+
+]
 File: fig/ivp_and_control_1_5-3_7_50.png Graphic file (type png)
 <use fig/ivp_and_control_1_5-3_7_50.png>
 Package pdftex.def Info: fig/ivp_and_control_1_5-3_7_50.png  used on input line
- 111.
+ 99.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
- [10
 
-]pdfTeX warning (ext4): destination with the same identifier (name{one}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.119 \end{frame}
-                 
+Overfull \vbox (7.00092pt too high) detected at line 99
+ []
+
+[10
+
+]
 File: fig/functional_1_5-3_7_50.png Graphic file (type png)
 <use fig/functional_1_5-3_7_50.png>
-Package pdftex.def Info: fig/functional_1_5-3_7_50.png  used on input line 119.
+Package pdftex.def Info: fig/functional_1_5-3_7_50.png  used on input line 106.
 
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
- [11
 
-]pdfTeX warning (ext4): destination with the same identifier (name{one}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.127 \end{frame}
-                 
+Overfull \vbox (7.00092pt too high) detected at line 106
+ []
+
+[11
+
+]
 File: fig/ivp_and_control_1_5-3_7_50.png Graphic file (type png)
 <use fig/ivp_and_control_1_5-3_7_50.png>
 Package pdftex.def Info: fig/ivp_and_control_1_5-3_7_50.png  used on input line
- 127.
+ 113.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
- [12
+
+Overfull \vbox (7.00092pt too high) detected at line 113
+ []
+
+[12
 
 ] [13
 
@@ -1570,41 +1651,34 @@ Package pdftex.def Info: fig/ivp_and_control_1_5-3_7_50.png  used on input line
 \tf@snm=\write9
 \openout9 = `413_Titov_doklad.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 141.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 141.
- (413_Titov_doklad.aux
-
-Package pdfbase Warning: Rerun to get internal references right!
-
-)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 141.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 141.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 122.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 122.
+ (413_Titov_doklad.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 122.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 122.
 Package rerunfilecheck Info: File `413_Titov_doklad.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 33209 strings out of 492945
- 605391 string characters out of 3135504
- 676518 words of memory out of 3000000
- 36510 multiletter control sequences out of 15000+200000
- 542822 words of font info for 50 fonts, out of 3000000 for 9000
+ 36435 strings out of 492945
+ 685511 string characters out of 3135504
+ 750346 words of memory out of 3000000
+ 39657 multiletter control sequences out of 15000+200000
+ 548666 words of font info for 61 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,15n,78p,804b,583s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 83i,13n,102p,1798b,763s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\titoffag\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600
-\lass2488.pk> <C:\Users\titoffag\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh
--t2a/dpi600\lass0900.pk> <C:\Users\titoffag\AppData\Local\MiKTeX\2.9\fonts/pk/l
-jfour/lh/lh-t2a/dpi600\lass0500.pk> <C:\Users\titoffag\AppData\Local\MiKTeX\2.9
-\fonts/pk/ljfour/lh/lh-t2a/dpi600\lass0700.pk> <C:\Users\titoffag\AppData\Local
-\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lass1000.pk> <C:\Users\titoffag\Ap
-pData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lass1440.pk><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-Output written on 413_Titov_doklad.pdf (14 pages, 144510 bytes).
+\lasx0900.pk> <C:\Users\titoffag\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh
+-t2a/dpi600\lass0800.pk> <C:\Users\titoffag\AppData\Local\MiKTeX\2.9\fonts/pk/l
+jfour/lh/lh-t2a/dpi600\lass1000.pk> <C:\Users\titoffag\AppData\Local\MiKTeX\2.9
+\fonts/pk/ljfour/lh/lh-t2a/dpi600\lasx1200.pk> <C:\Users\titoffag\AppData\Local
+\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lass0700.pk> <C:\Users\titoffag\Ap
+pData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lass0900.pk> <C:\Users\
+titoffag\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lasx1440.pk>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
+Output written on 413_Titov_doklad.pdf (14 pages, 144686 bytes).
 PDF statistics:
- 320 PDF objects out of 1000 (max. 8388607)
- 30 named destinations out of 1000 (max. 500000)
- 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 318 PDF objects out of 1000 (max. 8388607)
+ 29 named destinations out of 1000 (max. 500000)
+ 73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
