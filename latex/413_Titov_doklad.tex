@@ -1,6 +1,10 @@
 \documentclass[10pt,utf8,presentation,notheorems,xcolor=dvipsnames,compress]{beamer}
 \usepackage{doclad}
 
+\setbeamertemplate{caption}[numbered]
+\usepackage[labelsep=period]{caption}
+\addto\captionsrussian{\renewcommand{\figurename}{Рисунок}}
+
 \newcommand{\ov}{\overline}
 \newcommand{\fr}{\cfrac}
 \newcommand{\ti}{\times}
@@ -39,37 +43,76 @@
 \titlepage
 \end{frame}
 
-\begin{frame}{Постановки задачи оптимального управления движением твёрдого тела}
+\begin{frame}[t]{Постановки задачи оптимального управления движением твёрдого тела} \vspace{4pt}
+\begin{block}{Угловое движение твердого тела}
+\begin{equation}
+2\dot{\overline{\lambda}} = \overline{\lambda} \circ \overline{\omega}_\text{Y}
+\end{equation}
+\end{block}
+
+\begin{block}{Краевые условия}
+\begin{equation}
+\overline{\lambda}(0) = \overline{\lambda}^{0},\ \overline{\lambda}(\tau) = \overline{\lambda}^\text{T}
+\end{equation}
+\end{block}
+\begin{block}{Минимизирующий функционал}
+\begin{equation}
+\text{I} = \int \limits_{0}^\text{T} (\alpha_{1}\omega_{1}^{2}+\alpha_{2}\omega_{2}^{2}+\alpha_{3}\omega_{3}^{2}) \text{dt}
+\end{equation}
+\end{block}
 \end{frame}
 
-\begin{frame}{Решение задачи с помощью принципа максимума Л.С. Понтрягина}
-(5.18)
+\begin{frame}[t]{Решение задачи с помощью принципа максимума Л.С. Понтрягина}
+С помощью принципа максимума Понтрягина задача оптимальной переориентации твердого тела свелась к краевой задачи.
+\begin{block}{Система ОДУ с краевыми условиями}
+\begin{equation}
+\begin{cases}
+	2\dot{\overline{\lambda}} = \overline{\lambda} \circ \overline{\omega},\\
+	\dot{\overline{\text{p}}} = \overline{\text{p}} \times \overline{\omega}
+\end{cases}
+\overline{\lambda}(0) = \overline{\lambda}^{0},\ \overline{\lambda}(\tau) = \overline{\lambda}^\text{T}
+\end{equation}
+\end{block}
 
-(6.3)
+\begin{block}{7 уравнений, для которых нужно решить задачу Коши}
+\begin{equation}
+\begin{cases}
+\dot{\lambda_{0}} = -\dfrac{1}{2} \lambda_{1}\omega_{1} - \lambda_{2}\omega_{2} - \lambda_{3}\omega_{3},\\
+\dot{\lambda_{1}} = \dfrac{1}{2} \lambda_{0}\omega_{1} + \lambda_{2}\omega_{3} - \lambda_{3}\omega_{2},\\
+\dot{\lambda_{2}} = \dfrac{1}{2} \lambda_{0}\omega_{2} + \lambda_{3}\omega_{1} - \lambda_{1}\omega_{3},\\
+\dot{\lambda_{3}} = \dfrac{1}{2} \lambda_{0}\omega_{3} + \lambda_{1}\omega_{2} - \lambda_{2}\omega_{1},
+\end{cases}
+\begin{cases}
+\dot{\text{p}}_1 = \text{p}_2 \omega_3 - \text{p}_3 \omega_2,\\
+\dot{\text{p}}_2 = \text{p}_1 \omega_3 - \text{p}_3 \omega_1,\\
+\dot{\text{p}}_3 = \text{p}_1 \omega_2 - \text{p}_2 \omega_1.
+\end{cases}
+\end{equation}
+\end{block}
 \end{frame}
 
-\begin{frame}{Примеры численного решения для поворотов на малые углы - первый случай, когда $\alpha_1, \alpha_2$ фиксированы}
+\begin{frame}{Примеры численного решения для поворотов на малые углы - первый случай, когда $\alpha_1$ и $\alpha_2$ фиксированы}
 \begin{figure}[H]
 \center\includegraphics[scale=0.5]{fig/functional_3_7-5_5.png}
 \caption{$\alpha_3 \in [3.7, 5]$, угол в $5^{\circ}$}
 \end{figure}
 \end{frame}
 
-\begin{frame}{Примеры численного решения для поворотов на малые углы - первый случай, когда $\alpha_1, \alpha_2$ фиксированы}
+\begin{frame}{Примеры численного решения для поворотов на малые углы - первый случай, когда $\alpha_1$ и $\alpha_2$ фиксированы}
 \begin{figure}[H]
 \center\includegraphics[scale=0.5]{fig/ivp_and_control_3_7-5_5.png}
 \caption{$\alpha_3 \in [3.7, 5]$, угол в $5^{\circ}$}
 \end{figure}
 \end{frame}
 
-\begin{frame}{Примеры численного решения для поворотов на малые углы - второй случай, когда $\alpha_1, \alpha_3$ фиксированы}
+\begin{frame}{Примеры численного решения для поворотов на малые углы - второй случай, когда $\alpha_1$ и $\alpha_3$ фиксированы}
 \begin{figure}[H]
 \center\includegraphics[scale=0.5]{fig/functional_alpha2_1-2_5.png}
 \caption{$\alpha_2 \in [1, 2]$, угол в $5^{\circ}$}
 \end{figure}
 \end{frame}
 
-\begin{frame}{Примеры численного решения для поворотов на малые углы - второй случай, когда $\alpha_1, \alpha_3$ фиксированы}
+\begin{frame}{Примеры численного решения для поворотов на малые углы - второй случай, когда $\alpha_1$ и $\alpha_3$ фиксированы}
 \begin{figure}[H]
 \center\includegraphics[scale=0.5]{fig/ivp_and_control_alpha2_1-2_5.png}
 \caption{$\alpha_2 \in [1, 2]$, угол в $5^{\circ}$}
@@ -77,28 +120,28 @@
 \end{frame}
 
 \begin{frame}
-\frametitle{Примеры численного решения для поворотов на большие углы - третий случай, когда $\alpha_1, \alpha_2$ фиксированы}
+\frametitle{Примеры численного решения для поворотов на большие углы - третий случай, когда $\alpha_1$ и $\alpha_2$ фиксированы}
 \begin{figure}[H]
 \center\includegraphics[scale=0.5]{fig/functional_1_5-3_7_50.png}
 \caption{$\alpha_3 \in [1.5, 3.7]$, угол в $50^{\circ}$}
 \end{figure}
 \end{frame}
 
-\begin{frame}{Примеры численного решения для поворотов на большие углы - третий случай, когда $\alpha_1, \alpha_2$ фиксированы}
+\begin{frame}{Примеры численного решения для поворотов на большие углы - третий случай, когда $\alpha_1$ и $\alpha_2$ фиксированы}
 \begin{figure}[H]
 \center\includegraphics[scale=0.5]{fig/ivp_and_control_1_5-3_7_50.png}
 \caption{$\alpha_3 \in [1.5, 3.7]$, угол в $50^{\circ}$}
 \end{figure}
 \end{frame}
 
-\begin{frame}{Примеры численного решения для поворотов на большие углы - четвертый случай, когда $\alpha_1, \alpha_3$ фиксированы}
+\begin{frame}{Примеры численного решения для поворотов на большие углы - четвертый случай, когда $\alpha_1$ и $\alpha_3$ фиксированы}
 \begin{figure}[H]
 \center\includegraphics[scale=0.5]{fig/functional_alpha2_1_5-3_7_50.png}
 \caption{$\alpha_2 \in [1.5, 3.7]$, угол в $50^{\circ}$}
 \end{figure}
 \end{frame}
 
-\begin{frame}{Примеры численного решения для поворотов на большие углы - четвертый случай, когда $\alpha_1, \alpha_3$ фиксированы}
+\begin{frame}{Примеры численного решения для поворотов на большие углы - четвертый случай, когда $\alpha_1$ и $\alpha_3$ фиксированы}
 \begin{figure}[H]
 \center\includegraphics[scale=0.5]{fig/ivp_and_control_alpha2_1_5-3_7_50.png}
 \caption{$\alpha_2 \in [1.5, 3.7]$, угол в $50^{\circ}$}
@@ -106,6 +149,7 @@
 \end{frame}
 
 \begin{frame}{База данных для хранения графиков}
+\center\includegraphics[scale=0.5]{fig/MongoDB-Logo.png}
 \end{frame}
 
 \begin{frame}[standout]
