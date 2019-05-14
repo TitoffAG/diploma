@@ -87,7 +87,7 @@ def calculate_control(vars, alpha):
     ]
 
 
-def calculate_functional(vars, alpha):  # минимизирующий функционал
+def calculate_functional(vars, alpha):  # минимизируемый функционал
     control1, control2, control3 = vars[0], vars[1], vars[2]
     integrand_function = alpha1 * \
         (control1 ** 2) + alpha * (control2 ** 2) + alpha3 * (control3 ** 2)
@@ -123,18 +123,18 @@ def start():
         ivp_solution, result_control, time, alpha_interval)
     plot.draw_fuctional(result_functional, alpha_interval)
 
-    # results = bvp_solution.tolist(), ivp_solution[-1].tolist(), control, float(functional)
+    results = bvp_solution.tolist(), ivp_solution[-1].tolist()
 
-    # ivp_and_control_charts = plot.open('resources/ivp_and_control.png')
-    # functional_chart = plot.open('resources/functional.png')
-    # charts = ivp_and_control_charts, functional_chart
+    ivp_and_control_charts = plot.open('resources/ivp_and_control.png')
+    functional_chart = plot.open('resources/functional.png')
+    charts = ivp_and_control_charts, functional_chart
 
-    # collection = db.connect() # подключаемся к серверу бд
-    # db.write(collection, results, charts) # делаем запись в коллекцию
+    collection = db.connect() # подключаемся к серверу бд
+    db.write(collection, results, charts) # делаем запись в коллекцию
 
-    # cursor = db.read(collection, {}) # поиск
-    # for record in cursor:
-    #     print(record['data']) # читаем все записи из коллекции
+    cursor = db.read(collection, {}) # поиск
+    for record in cursor:
+        print(record['data']) # читаем все записи из коллекции
 
 
 if __name__ == '__main__':

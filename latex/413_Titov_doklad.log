@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.3.28)  13 MAY 2019 22:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.3.28)  14 MAY 2019 23:20
 entering extended mode
 **./413_Titov_doklad.tex
 (413_Titov_doklad.tex
@@ -1571,118 +1571,78 @@ Overfull \vbox (17.90607pt too high) detected at line 92
 
 [3
 
+] [4
+
 ]
-<fig/functional_3_7-5_5.png, id=46, 462.528pt x 346.896pt>
-File: fig/functional_3_7-5_5.png Graphic file (type png)
-<use fig/functional_3_7-5_5.png>
-Package pdftex.def Info: fig/functional_3_7-5_5.png  used on input line 99.
+<fig/functional_alpha2_1-2_5.png, id=54, 462.528pt x 346.896pt>
+File: fig/functional_alpha2_1-2_5.png Graphic file (type png)
+<use fig/functional_alpha2_1-2_5.png>
+Package pdftex.def Info: fig/functional_alpha2_1-2_5.png  used on input line 12
+5.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
 
-Overfull \vbox (5.8509pt too high) detected at line 99
- []
-
-[4
-
- <./fig/functional_3_7-5_5.png>]
-<fig/ivp_and_control_3_7-5_5.png, id=63, 462.528pt x 346.896pt>
-File: fig/ivp_and_control_3_7-5_5.png Graphic file (type png)
-<use fig/ivp_and_control_3_7-5_5.png>
-Package pdftex.def Info: fig/ivp_and_control_3_7-5_5.png  used on input line 10
-6.
-(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
-
-Overfull \vbox (5.8509pt too high) detected at line 106
+Overfull \vbox (5.8509pt too high) detected at line 125
  []
 
 [5
 
- <./fig/ivp_and_control_3_7-5_5.png>]
-<fig/functional_alpha2_1-2_5.png, id=71, 462.528pt x 346.896pt>
-File: fig/functional_alpha2_1-2_5.png Graphic file (type png)
-<use fig/functional_alpha2_1-2_5.png>
-Package pdftex.def Info: fig/functional_alpha2_1-2_5.png  used on input line 11
-3.
+ <./fig/functional_alpha2_1-2_5.png>]
+<fig/ivp_and_control_alpha2_1-2_5.png, id=71, 462.528pt x 346.896pt>
+File: fig/ivp_and_control_alpha2_1-2_5.png Graphic file (type png)
+<use fig/ivp_and_control_alpha2_1-2_5.png>
+Package pdftex.def Info: fig/ivp_and_control_alpha2_1-2_5.png  used on input li
+ne 132.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
 
-Overfull \vbox (5.8509pt too high) detected at line 113
+Overfull \vbox (5.8509pt too high) detected at line 132
  []
 
 [6
 
- <./fig/functional_alpha2_1-2_5.png>]
-<fig/ivp_and_control_alpha2_1-2_5.png, id=79, 462.528pt x 346.896pt>
-File: fig/ivp_and_control_alpha2_1-2_5.png Graphic file (type png)
-<use fig/ivp_and_control_alpha2_1-2_5.png>
-Package pdftex.def Info: fig/ivp_and_control_alpha2_1-2_5.png  used on input li
-ne 120.
+ <./fig/ivp_and_control_alpha2_1-2_5.png>]
+<fig/functional_alpha2_1_5-3_7_50.png, id=79, 462.528pt x 346.896pt>
+File: fig/functional_alpha2_1_5-3_7_50.png Graphic file (type png)
+<use fig/functional_alpha2_1_5-3_7_50.png>
+Package pdftex.def Info: fig/functional_alpha2_1_5-3_7_50.png  used on input li
+ne 154.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
 
-Overfull \vbox (5.8509pt too high) detected at line 120
+Overfull \vbox (5.8509pt too high) detected at line 154
  []
 
 [7
 
- <./fig/ivp_and_control_alpha2_1-2_5.png>]
-<fig/functional_1_5-3_7_50.png, id=88, 462.528pt x 346.896pt>
-File: fig/functional_1_5-3_7_50.png Graphic file (type png)
-<use fig/functional_1_5-3_7_50.png>
-Package pdftex.def Info: fig/functional_1_5-3_7_50.png  used on input line 128.
-
+ <./fig/functional_alpha2_1_5-3_7_50.png>]
+<fig/ivp_and_control_alpha2_1_5-3_7_50.png, id=88, 462.528pt x 346.896pt>
+File: fig/ivp_and_control_alpha2_1_5-3_7_50.png Graphic file (type png)
+<use fig/ivp_and_control_alpha2_1_5-3_7_50.png>
+Package pdftex.def Info: fig/ivp_and_control_alpha2_1_5-3_7_50.png  used on inp
+ut line 161.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
 
-Overfull \vbox (5.8509pt too high) detected at line 128
+Overfull \vbox (5.8509pt too high) detected at line 161
  []
 
 [8
 
- <./fig/functional_1_5-3_7_50.png>]
-<fig/ivp_and_control_1_5-3_7_50.png, id=96, 462.528pt x 346.896pt>
-File: fig/ivp_and_control_1_5-3_7_50.png Graphic file (type png)
-<use fig/ivp_and_control_1_5-3_7_50.png>
-Package pdftex.def Info: fig/ivp_and_control_1_5-3_7_50.png  used on input line
- 135.
-(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
+ <./fig/ivp_and_control_alpha2_1_5-3_7_50.png>]
+<fig/MongoDB-Logo.png, id=96, 528.97626pt x 143.53625pt>
+File: fig/MongoDB-Logo.png Graphic file (type png)
+<use fig/MongoDB-Logo.png>
+Package pdftex.def Info: fig/MongoDB-Logo.png  used on input line 169.
+(pdftex.def)             Requested size: 264.48747pt x 71.76794pt.
+<fig/mongo_results.png, id=97, 581.92406pt x 201.00093pt>
+File: fig/mongo_results.png Graphic file (type png)
+<use fig/mongo_results.png>
+Package pdftex.def Info: fig/mongo_results.png  used on input line 169.
+(pdftex.def)             Requested size: 290.96132pt x 100.50021pt.
 
-Overfull \vbox (5.8509pt too high) detected at line 135
+Overfull \vbox (2.57036pt too high) detected at line 169
  []
 
 [9
 
- <./fig/ivp_and_control_1_5-3_7_50.png>]
-<fig/functional_alpha2_1_5-3_7_50.png, id=104, 462.528pt x 346.896pt>
-File: fig/functional_alpha2_1_5-3_7_50.png Graphic file (type png)
-<use fig/functional_alpha2_1_5-3_7_50.png>
-Package pdftex.def Info: fig/functional_alpha2_1_5-3_7_50.png  used on input li
-ne 142.
-(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
-
-Overfull \vbox (5.8509pt too high) detected at line 142
- []
-
-[10
-
- <./fig/functional_alpha2_1_5-3_7_50.png>]
-<fig/ivp_and_control_alpha2_1_5-3_7_50.png, id=112, 462.528pt x 346.896pt>
-File: fig/ivp_and_control_alpha2_1_5-3_7_50.png Graphic file (type png)
-<use fig/ivp_and_control_alpha2_1_5-3_7_50.png>
-Package pdftex.def Info: fig/ivp_and_control_alpha2_1_5-3_7_50.png  used on inp
-ut line 149.
-(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
-
-Overfull \vbox (5.8509pt too high) detected at line 149
- []
-
-[11
-
- <./fig/ivp_and_control_alpha2_1_5-3_7_50.png>]
-<fig/MongoDB-Logo.png, id=120, 528.97626pt x 143.53625pt>
-File: fig/MongoDB-Logo.png Graphic file (type png)
-<use fig/MongoDB-Logo.png>
-Package pdftex.def Info: fig/MongoDB-Logo.png  used on input line 153.
-(pdftex.def)             Requested size: 264.48747pt x 71.76794pt.
- [12
-
- <./fig/MongoDB-Logo.png>] [13
+ <./fig/MongoDB-Logo.png> <./fig/mongo_results.png>] [10
 
 ]
 \tf@nav=\write7
@@ -1694,44 +1654,47 @@ Package pdftex.def Info: fig/MongoDB-Logo.png  used on input line 153.
 \tf@snm=\write9
 \openout9 = `413_Titov_doklad.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 159.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 159.
- (413_Titov_doklad.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 159.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 159.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 175.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 175.
+
+(413_Titov_doklad.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 175.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 175.
 Package rerunfilecheck Info: File `413_Titov_doklad.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 37616 strings out of 492945
- 707660 string characters out of 3135504
+ 37626 strings out of 492945
+ 707989 string characters out of 3135504
  778607 words of memory out of 3000000
- 40795 multiletter control sequences out of 15000+200000
- 555340 words of font info for 86 fonts, out of 3000000 for 9000
+ 40808 multiletter control sequences out of 15000+200000
+ 557977 words of font info for 89 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,16n,102p,1798b,763s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\titoffag\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600
 \lass0600.pk> <C:\Users\titoffag\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh
 -t2a/dpi600\lasx0900.pk> <C:\Users\titoffag\AppData\Local\MiKTeX\2.9\fonts/pk/l
 jfour/lh/lh-t2a/dpi600\lass0800.pk> <C:\Users\titoffag\AppData\Local\MiKTeX\2.9
-\fonts/pk/ljfour/lh/lh-t2a/dpi600\lass1000.pk> <C:\Users\titoffag\AppData\Local
-\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lasx1000.pk> <C:\Users\titoffag\Ap
-pData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lasx1200.pk> <C:\Users\
-titoffag\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lass0700.pk>
+\fonts/pk/ljfour/lh/lh-t2a/dpi600\lasi1000.pk> <C:\Users\titoffag\AppData\Local
+\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lasi0700.pk> <C:\Users\titoffag\Ap
+pData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lass1000.pk> <C:\Users\
+titoffag\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lasx1000.pk>
  <C:\Users\titoffag\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\l
-ass0900.pk> <C:\Users\titoffag\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t
-2a/dpi600\lasx1440.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi1
-0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmsy9.pfb>
-Output written on 413_Titov_doklad.pdf (13 pages, 407060 bytes).
+asx1200.pk> <C:\Users\titoffag\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t
+2a/dpi600\lass0700.pk> <C:\Users\titoffag\AppData\Local\MiKTeX\2.9\fonts/pk/ljf
+our/lh/lh-t2a/dpi600\lass0900.pk> <C:\Users\titoffag\AppData\Local\MiKTeX\2.9\f
+onts/pk/ljfour/lh/lh-t2a/dpi600\lasx1440.pk><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on 413_Titov_doklad.pdf (10 pages, 321408 bytes).
 PDF statistics:
- 416 PDF objects out of 1000 (max. 8388607)
- 27 named destinations out of 1000 (max. 500000)
- 108 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 420 PDF objects out of 1000 (max. 8388607)
+ 21 named destinations out of 1000 (max. 500000)
+ 93 words of extra memory for PDF output out of 10000 (max. 10000000)
 

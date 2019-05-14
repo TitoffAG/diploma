@@ -19,9 +19,9 @@ def write(collection, data, image):
         'date': datetime.now().strftime('%d-%m-%Y/%H-%M'),
         'data': {
             'bvp_solution': data[0],
-            'ivp_solution': data[1],
-            'conrol': data[2],
-            'functional': data[3]
+            'ivp_solution': data[1]
+            # 'control': data[2],
+            # 'functional': data[3]
         },
         'charts': Binary(dumps(image))
     }
