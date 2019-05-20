@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.3.28)  12 MAY 2019 01:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.3.28)  20 MAY 2019 20:34
 entering extended mode
 **./413_Titov.tex
 (413_Titov.tex
@@ -965,7 +965,7 @@ Package pdftex.def Info: fig/img21.png  used on input line 279.
 
 ] [20]
 Underfull \hbox (badness 10000) in paragraph at lines 536--537
-[]\T2A/cmr/m/n/14.4 Мы те-перь объ-еди-ним си-сте-мы [], [] од-ной за-писью,
+[]\T2A/cmr/m/n/14.4 Теперь объ-еди-ним си-сте-мы [], [] од-ной за-писью,
  []
 
 
@@ -1019,65 +1019,65 @@ File: fig/functional_1_5-3_7_50.png Graphic file (type png)
 <use fig/functional_1_5-3_7_50.png>
 Package pdftex.def Info: fig/functional_1_5-3_7_50.png  used on input line 838.
 
-(pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
+(pdftex.def)             Requested size: 323.76738pt x 242.82553pt.
 <fig/ivp_and_control_1_5-3_7_50.png, id=479, 462.528pt x 346.896pt>
 File: fig/ivp_and_control_1_5-3_7_50.png Graphic file (type png)
 <use fig/ivp_and_control_1_5-3_7_50.png>
 Package pdftex.def Info: fig/ivp_and_control_1_5-3_7_50.png  used on input line
  843.
-(pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
- [31 <./fig/functional_1_5-3_7_50.png>]
-<fig/functional_3_7-5_5.png, id=488, 462.528pt x 346.896pt>
+(pdftex.def)             Requested size: 323.76738pt x 242.82553pt.
+ [31 <./fig/functional_1_5-3_7_50.png> <./fig/ivp_and_control_1_5-3_7_50.png>]
+<fig/functional_3_7-5_5.png, id=490, 462.528pt x 346.896pt>
 File: fig/functional_3_7-5_5.png Graphic file (type png)
 <use fig/functional_3_7-5_5.png>
 Package pdftex.def Info: fig/functional_3_7-5_5.png  used on input line 852.
-(pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
-<fig/ivp_and_control_3_7-5_5.png, id=489, 462.528pt x 346.896pt>
+(pdftex.def)             Requested size: 323.76738pt x 242.82553pt.
+<fig/ivp_and_control_3_7-5_5.png, id=491, 462.528pt x 346.896pt>
 File: fig/ivp_and_control_3_7-5_5.png Graphic file (type png)
 <use fig/ivp_and_control_3_7-5_5.png>
 Package pdftex.def Info: fig/ivp_and_control_3_7-5_5.png  used on input line 85
 7.
-(pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
- [32 <./fig/ivp_and_control_1_5-3_7_50.png> <./fig/functional_3_7-5_5.png>]
-<fig/functional_alpha2_1_5-3_7_50.png, id=498, 462.528pt x 346.896pt>
+(pdftex.def)             Requested size: 323.76738pt x 242.82553pt.
+ [32 <./fig/functional_3_7-5_5.png> <./fig/ivp_and_control_3_7-5_5.png>]
+<fig/functional_alpha2_1_5-3_7_50.png, id=500, 462.528pt x 346.896pt>
 File: fig/functional_alpha2_1_5-3_7_50.png Graphic file (type png)
 <use fig/functional_alpha2_1_5-3_7_50.png>
 Package pdftex.def Info: fig/functional_alpha2_1_5-3_7_50.png  used on input li
 ne 868.
-(pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
- [33 <./fig/ivp_and_control_3_7-5_5.png>]
-<fig/ivp_and_control_alpha2_1_5-3_7_50.png, id=505, 462.528pt x 346.896pt>
+(pdftex.def)             Requested size: 323.76738pt x 242.82553pt.
+<fig/ivp_and_control_alpha2_1_5-3_7_50.png, id=501, 462.528pt x 346.896pt>
 File: fig/ivp_and_control_alpha2_1_5-3_7_50.png Graphic file (type png)
 <use fig/ivp_and_control_alpha2_1_5-3_7_50.png>
 Package pdftex.def Info: fig/ivp_and_control_alpha2_1_5-3_7_50.png  used on inp
 ut line 873.
-(pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
- [34 <./fig/functional_alpha2_1_5-3_7_50.png> <./fig/ivp_and_control_alpha2_1_5
--3_7_50.png>]
-<fig/functional_alpha2_1-2_5.png, id=514, 462.528pt x 346.896pt>
+(pdftex.def)             Requested size: 323.76738pt x 242.82553pt.
+
+[33 <./fig/functional_alpha2_1_5-3_7_50.png> <./fig/ivp_and_control_alpha2_1_5-
+3_7_50.png>]
+<fig/functional_alpha2_1-2_5.png, id=510, 462.528pt x 346.896pt>
 File: fig/functional_alpha2_1-2_5.png Graphic file (type png)
 <use fig/functional_alpha2_1-2_5.png>
 Package pdftex.def Info: fig/functional_alpha2_1-2_5.png  used on input line 88
 4.
-(pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
-<fig/ivp_and_control_alpha2_1-2_5.png, id=515, 462.528pt x 346.896pt>
+(pdftex.def)             Requested size: 323.76738pt x 242.82553pt.
+<fig/ivp_and_control_alpha2_1-2_5.png, id=511, 462.528pt x 346.896pt>
 File: fig/ivp_and_control_alpha2_1-2_5.png Graphic file (type png)
 <use fig/ivp_and_control_alpha2_1-2_5.png>
 Package pdftex.def Info: fig/ivp_and_control_alpha2_1-2_5.png  used on input li
 ne 889.
-(pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
- [35 <./fig/functional_alpha2_1-2_5.png>] [36 <./fig/ivp_and_control_alpha2_1-2
-_5.png>]
+(pdftex.def)             Requested size: 323.76738pt x 242.82553pt.
+ [34 <./fig/functional_alpha2_1-2_5.png> <./fig/ivp_and_control_alpha2_1-2_5.pn
+g>]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 7.
-[37
+[35
 
 ]
-<fig/img81.png, id=534, 640.3925pt x 394.47375pt>
+<fig/img81.png, id=525, 640.3925pt x 394.47375pt>
 File: fig/img81.png Graphic file (type png)
 <use fig/img81.png>
 Package pdftex.def Info: fig/img81.png  used on input line 906.
 (pdftex.def)             Requested size: 480.2932pt x 295.85458pt.
- [38] [39 <./fig/img81.png>] [40] (413_Titov.bbl [41
+ [36] [37 <./fig/img81.png>] [38] (413_Titov.bbl [39
 
 ]
 
@@ -1094,7 +1094,7 @@ Underfull \hbox (badness 4954) in paragraph at lines 89--94
 ен-ци-аль-ные урав-не-ния. /
  []
 
-[42
+[40
 
 ]
 LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 130
@@ -1107,9 +1107,9 @@ Underfull \hbox (badness 2452) in paragraph at lines 145--149
 ав-не-ния. / А.Б. Ва-си-лье-ва,
  []
 
-) [43]
+) [41]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 934.
- [44
+ [42
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 934.
@@ -1121,10 +1121,10 @@ Package rerunfilecheck Info: File `413_Titov.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 934.
  ) 
 Here is how much of TeX's memory you used:
- 15478 strings out of 492945
- 220783 string characters out of 3135504
+ 15475 strings out of 492945
+ 220758 string characters out of 3135504
  331748 words of memory out of 3000000
- 18957 multiletter control sequences out of 15000+200000
+ 18956 multiletter control sequences out of 15000+200000
  10162 words of font info for 33 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,21n,45p,2701b,501s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1142,9 +1142,9 @@ s/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr1
 2.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/
 Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on 413_Titov.pdf (44 pages, 965005 bytes).
+Output written on 413_Titov.pdf (42 pages, 963448 bytes).
 PDF statistics:
- 945 PDF objects out of 1000 (max. 8388607)
- 186 named destinations out of 1000 (max. 500000)
+ 936 PDF objects out of 1000 (max. 8388607)
+ 184 named destinations out of 1000 (max. 500000)
  225 words of extra memory for PDF output out of 10000 (max. 10000000)
 

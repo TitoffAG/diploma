@@ -12,7 +12,7 @@
 \BibEmph{Львовский,~С.М.} Набор и верстка в
   пакете \LaTeX.~/ С.М.~Львовский. ---
 \newblock М.: МЦНМО, 2006. ---
-\newblock {С.}~448.
+\newblock 448~{с.}
 
 \bibitem{chelnokov}
 \selectlanguageifdefined{russian}
@@ -37,14 +37,14 @@
   математики.~/ Б.П.~Демидович, В.А.~Кудрявцев.
   ---
 \newblock М: Астрель, 2006. ---
-\newblock {С.}~991.
+\newblock 991~{с.}
 
 \bibitem{matan}
 \selectlanguageifdefined{russian}
 \BibEmph{Ильин,~В.А.} Математический анализ.
   Продолжение курса.~/ В.А.~Ильин. ---
 \newblock М: МГУ, 1987. ---
-\newblock {С.}~244.
+\newblock 244~{с.}
 
 \bibitem{pontryagin}
 \selectlanguageifdefined{russian}
@@ -59,7 +59,7 @@
 \BibEmph{Ройтенберг,~Я.Н.} Автоматическое
   управление.~/ Я.Н.~Ройтенберг. ---
 \newblock М.: Наука, 1971. ---
-\newblock {С.}~396.
+\newblock 396~{с.}
 
 \bibitem{buhgolz}
 \selectlanguageifdefined{russian}
@@ -75,14 +75,14 @@
   систем автоматического управления.~/
   Я.Г.~Сапунков. ---
 \newblock М: Наука, 2003. ---
-\newblock {С.}~22.
+\newblock 22~{с.}
 
 \bibitem{methods}
 \selectlanguageifdefined{russian}
 \BibEmph{Амосов,~А.A.} Вычислительные методы для
   инженеров: Учебное пособие.~/ А.A.~Амосов. ---
 \newblock М.: Наука, 1980. ---
-\newblock {С.}~218.
+\newblock 218~{с.}
 
 \bibitem{pontryagin2}
 \selectlanguageifdefined{russian}
@@ -90,14 +90,14 @@
   дифференциальные уравнения.~/
   Л.С.~Понтрягин. ---
 \newblock М.: Наука, 1983. ---
-\newblock {С.}~393.
+\newblock 393~{с.}
 
 \bibitem{mechanics}
 \selectlanguageifdefined{russian}
 \BibEmph{Седов,~Л.И.} Механика сплошной среды.~/
   Л.И.~Седов. ---
 \newblock М.: Наука, 1970. ---
-\newblock {С.}~166.
+\newblock 166~{с.}
 
 \bibitem{antipova}
 \selectlanguageifdefined{russian}
@@ -107,7 +107,7 @@
   \BibEmph{Математика и её приложения: ЖИМО.} ---
 \newblock 2010. ---
 \newblock {№} 1(7). ---
-\newblock {С.}~3--10.
+\newblock 3-10~{с.}
 
 \bibitem{moiseev}
 \selectlanguageifdefined{russian}
@@ -115,7 +115,7 @@
   теории оптимальных систем.~/ Н.Н.~Моисеев.
   ---
 \newblock М.: Наука, 1971. ---
-\newblock {С.}~424.
+\newblock 424~{с.}
 
 \bibitem{python}
 \selectlanguageifdefined{russian}
@@ -123,7 +123,7 @@
   Р.А.~Сузи. ---
 \newblock М.: Интернет-Университет
   Информационных Технологий, 2007. ---
-\newblock {С.}~327.
+\newblock 327~{с.}
 
 \bibitem{scipy}
 \selectlanguageifdefined{russian}
@@ -138,19 +138,19 @@ MongoDB Documentation. \BibUrl{ https://docs.mongodb.com}.
 \BibEmph{Самарский,~А.А.} Численные методы.~/
   А.А.~Самарский, А.В.~Гулин. ---
 \newblock М.: Наука, 1989. ---
-\newblock {С.}~432.
+\newblock 432~{с.}
 
 \bibitem{vasileva}
 \selectlanguageifdefined{russian}
 \BibEmph{Васильева,~А.Б.} Дифференциальные
   уравнения.~/ А.Б.~Васильева, А.Н.~Тихонов. ---
 \newblock М.: ФИЗМАТЛИТ, 2005. ---
-\newblock {С.}~254.
+\newblock 254~{с.}
 
 \bibitem{lutz}
-\selectlanguageifdefined{english}
+\selectlanguageifdefined{russian}
 \BibEmph{Лутц,~Марк}. Изучаем Python~/ Марк~Лутц. ---
 \newblock М: Символ-Плюс, 2016. ---
-\newblock P.~1280.
+\newblock 1280~{с.}
 
 \end{thebibliography}
