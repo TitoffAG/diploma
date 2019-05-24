@@ -127,11 +127,17 @@
 
 \bibitem{scipy}
 \selectlanguageifdefined{russian}
-SciPy.org Documetation. \BibUrl{ https://www.scipy.org/docs.html}.
+\BibEmph{Харриет,~Дэншоу}. Элегантный SciPy~/
+  Дэншоу~Харриет. ---
+\newblock М: ДМК Пресс, 2018. ---
+\newblock 266~{с.}
 
 \bibitem{mongodb}
 \selectlanguageifdefined{russian}
-MongoDB Documentation. \BibUrl{ https://docs.mongodb.com}.
+\BibEmph{Кайл,~Бэнкер}. MongoDB в действии~/
+  Бэнкер~Кайл. ---
+\newblock М: ДМК Пресс, 2017. ---
+\newblock 394~{с.}
 
 \bibitem{samarskii}
 \selectlanguageifdefined{russian}
