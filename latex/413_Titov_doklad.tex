@@ -74,7 +74,7 @@
 \end{equation}
 \end{block}
 
-\begin{block}{7 уравнений, для которых нужно решить задачу Коши}
+\begin{block}{Система из 7 обыкновенных однородных уравнений}
 \begin{equation}
 \begin{cases}
 \dot{\lambda_{0}} = -\dfrac{1}{2} \lambda_{1}\omega_{1} - \lambda_{2}\omega_{2} - \lambda_{3}\omega_{3},\\
@@ -92,71 +92,36 @@
 \end{frame}
 
 \begin{frame}[t]{Алгоритм численного решения} \vspace{4pt}
-\begin{enumerate}
-\item Для полученной системы из 7 дифференциальных уравнений решаем задачу Коши с начальным условием $\overline{\lambda}^{0}$ и начальным приближением $\textit{p} = (\textit{p}_{10}, \textit{p}_{20}, \textit{p}_{30})$ - получаем $\overline{\lambda}^{\textit{T}}_{\textit{прибл.}}$.
-
-\item Ищем корни уравнений, определенных $\textit{F}(\textit{p}_{10}, \textit{p}_{20}, \textit{p}_{30}) = 0$ c начальным приближением $\textit{p}_{10}, \textit{p}_{20}, \textit{p}_{30}$, итерационным методом Ньютона и на каждой итерации получаем вектор-невязок решения задачи Коши, вычисляемый по формуле $\textit{vect}[\widetilde{\overline{\lambda}}^{\textit{T}}_{\textit{прибл.}} \circ \overline{\lambda}^{\textit{T}}] = (0, 0, 0)$.
-
-\item Вычисляем угловую скорость по формуле $\omega_{1} = \dfrac{\textit{p}_{1}}{4\alpha_{1}},\ \omega_{2} = \dfrac{\textit{p}_{2}}{4\alpha_{2}},\ \omega_{3} = \dfrac{\textit{p}_{3}}{4\alpha_{3}}$.
-
-\item Вычисляем минимизируемый функционал по формуле $\textit{I} = \int \limits_{0}^{\textit{T}} (\alpha_{1}\omega_{1}^{2}+\alpha_{2}\omega_{2}^{2}+\alpha_{3}\omega_{3}^{2}) \textit{dt}$.
-\end{enumerate}
-\end{frame}
-
-%\begin{frame}{Примеры численного решения для поворотов на малые углы - первый случай, когда $\alpha_1$ и $\alpha_2$ фиксированы}
-%\begin{figure}[H]
-%\center\includegraphics[scale=0.5]{fig/functional_3_7-5_5.png}
-%\caption{$\alpha_3 \in [3.7, 5]$, угол в $5^{\circ}$}
-%\end{figure}
-%\end{frame}
-
-%\begin{frame}{Примеры численного решения для поворотов на малые углы - первый случай, когда $\alpha_1$ и $\alpha_2$ фиксированы}
-%\begin{figure}[H]
-%\center\includegraphics[scale=0.5]{fig/ivp_and_control_3_7-5_5.png}
-%\caption{$\alpha_3 \in [3.7, 5]$, угол в $5^{\circ}$}
-%\end{figure}
-%\end{frame}
-
-\begin{frame}{Пример численного решения для поворота на малый угол, когда $\alpha_1$ и $\alpha_3$ фиксированы}
 \begin{figure}[H]
-\center\includegraphics[scale=0.5]{fig/functional_alpha2_1-2_5.png}
-\caption{$\alpha_2 \in [1, 2]$, угол в $5^{\circ}$}
+\center\includegraphics[scale=0.5]{fig/scheme.png}
 \end{figure}
 \end{frame}
 
-\begin{frame}{Пример численного решения для поворота на малый угол, когда $\alpha_1$ и $\alpha_3$ фиксированы}
+\begin{frame}{Пример численного решения для поворота на малый угол, когда $\alpha_1$ и $\alpha_3$ зафиксированы}
 \begin{figure}[H]
 \center\includegraphics[scale=0.5]{fig/ivp_and_control_alpha2_1-2_5.png}
-\caption{$\alpha_2 \in [1, 2]$, угол в $5^{\circ}$}
+\caption{Компоненты кватерниона ориентации и компоненты угловой скорости. $\alpha_1 = 1.5$, $\alpha_2 \in [1, 2]$, $\alpha_3 = 3.5$, $\textit{T} = 10$, $\theta = \psi = \phi = 5^{\circ}$.}
 \end{figure}
 \end{frame}
 
-%\begin{frame}
-%\frametitle{Примеры численного решения для поворотов на большие углы - третий случай, когда $\alpha_1$ и $\alpha_2$ фиксированы}
-%\begin{figure}[H]
-%\center\includegraphics[scale=0.5]{fig/functional_1_5-3_7_50.png}
-%\caption{$\alpha_3 \in [1.5, 3.7]$, угол в $50^{\circ}$}
-%\end{figure}
-%\end{frame}
-
-%\begin{frame}{Примеры численного решения для поворотов на большие углы - третий случай, когда $\alpha_1$ и $\alpha_2$ фиксированы}
-%\begin{figure}[H]
-%\center\includegraphics[scale=0.5]{fig/ivp_and_control_1_5-3_7_50.png}
-%\caption{$\alpha_3 \in [1.5, 3.7]$, угол в $50^{\circ}$}
-%\end{figure}
-%\end{frame}
-
-\begin{frame}{Пример численного решения для поворота на большой угол, когда $\alpha_1$ и $\alpha_3$ фиксированы}
+\begin{frame}{Пример численного решения для поворота на малый угол, когда $\alpha_1$ и $\alpha_3$ зафиксированы}
 \begin{figure}[H]
-\center\includegraphics[scale=0.5]{fig/functional_alpha2_1_5-3_7_50.png}
-\caption{$\alpha_2 \in [1.5, 3.7]$, угол в $50^{\circ}$}
+\center\includegraphics[scale=0.5]{fig/functional_alpha2_1-2_5.png}
+\caption{Функционал качества. $\alpha_1 = 1.5$, $\alpha_2 \in [1, 2]$, $\alpha_3 = 3.5$, $\textit{T} = 10$, $\theta = \psi = \phi = 5^{\circ}$.}
 \end{figure}
 \end{frame}
 
-\begin{frame}{Пример численного решения для поворота на большой угол, когда $\alpha_1$ и $\alpha_3$ фиксированы}
+\begin{frame}{Пример численного решения для поворота на большой угол, когда $\alpha_1$ и $\alpha_2$ зафиксированы}
 \begin{figure}[H]
-\center\includegraphics[scale=0.5]{fig/ivp_and_control_alpha2_1_5-3_7_50.png}
-\caption{$\alpha_2 \in [1.5, 3.7]$, угол в $50^{\circ}$}
+\center\includegraphics[scale=0.5]{fig/ivp_and_control_50_alpha3_1_6-3_6_alpha1-1_5_alpha2-3_5.png}
+\caption{Компоненты кватерниона ориентации и компоненты угловой скорости. $\alpha_1 = 1.5$, $\alpha_2 = 3.5$, $\alpha_3 \in [1.6, 3.6]$, $\textit{T} = 10$, $\theta = \psi = \phi = 50^{\circ}$.}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Пример численного решения для поворота на большой угол, когда $\alpha_1$ и $\alpha_2$ зафиксированы}
+\begin{figure}[H]
+\center\includegraphics[scale=0.5]{fig/functional_50_alpha3_1_6-3_6_alpha1-1_5_alpha2-3_5.png}
+\caption{Функционал качества. $\alpha_1 = 1.5$, $\alpha_2 = 3.5$, $\alpha_3 \in [1.6, 3.6]$, $\textit{T} = 10$, $\theta = \psi = \phi = 50^{\circ}$.}
 \end{figure}
 \end{frame}
 

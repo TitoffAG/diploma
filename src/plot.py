@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-from PIL import Image
+# from PIL import Image
 
 
 def draw_ivp_and_control(ivp_solution, control, time, alpha_interval):

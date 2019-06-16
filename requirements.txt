@@ -1,9 +1,11 @@
 bson
 # pickle
-Pillow
+# Pillow
 scipy
 numpy
 mpmath
 matplotlib
 pymongo
 datetime
+pyquaternion
+sympy

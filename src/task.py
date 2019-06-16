@@ -4,19 +4,20 @@ import utils
 import numpy as np
 from sympy import integrate, symbols
 from scipy.optimize import fsolve
-from scipy.integrate import odeint
+from scipy.integrate import odeint 
+from scipy.interpolate import make_interp_spline, BSpline
 
 # константы
 alpha1 = 1.5
-alpha3 = 3.5
+alpha3 = 1.5
 end_time = 9
 # интервал (1.5, 3.7) с углами в 50 градусов
 # интервал (3.7, 5) с углами в 5 градусов
-alpha2_start = 1.5
-alpha2_end = 3.7
-teta = 50
-psi = 50
-phi = 50
+alpha2_start = 0.8
+alpha2_end = 2.0
+teta = 5
+psi = 5
+phi = 5
 # начальные значения для p1, p2, p3; интервалы t и alpha3
 init_approx = [1, 2, 3]
 time = np.linspace(0, end_time, 101)
@@ -118,10 +119,14 @@ def start():
               functional)  # вычисление функционала
         result_functional.append(functional)
 
+    result_control_bspline = make_interp_spline(alpha_interval, result_control, k=3)
+    result_control_new = result_control_bspline(alpha_interval)
+    result_functional_bspline = make_interp_spline(alpha_interval, result_functional, k=3)
+    result_functional_new = result_functional_bspline(alpha_interval)
     # строим график изменения кватерниона во времени
     plot.draw_ivp_and_control(
-        ivp_solution, result_control, time, alpha_interval)
-    plot.draw_fuctional(result_functional, alpha_interval)
+        ivp_solution, result_control_new, time, alpha_interval)
+    plot.draw_fuctional(result_functional_new, alpha_interval)
 
     results = bvp_solution.tolist(), ivp_solution[-1].tolist()
 
